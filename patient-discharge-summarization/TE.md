@@ -25,10 +25,10 @@
   * Open-source tooling:
 
  * **ROUGE (Recall-Oriented Understudy for Gisting Evaluation)**
-  * Intended Use: N-gram or Longest Common Subsequence overlap can be measured when reference summary is available.
-  * Rationale: Acknowledge but do not use. Modern summarization systems use abstractive summarization (and not extractive summarization) so ROUGE is not helpful.
-  * Reference: [ROUGE: A Package for Automatic Evaluation of Summaries](https://aclanthology.org/W04-1013.pdf)
-  * Open-source tooling:
+   * Intended Use: N-gram or Longest Common Subsequence overlap can be measured when reference summary is available.
+   * Rationale: Acknowledge but do not use. Modern summarization systems use abstractive summarization (and not extractive summarization) so ROUGE is not helpful.
+   * Reference: [ROUGE: A Package for Automatic Evaluation of Summaries](https://aclanthology.org/W04-1013.pdf)
+   * Open-source tooling:
 
  * **BERTScore**
   * Intended Use: BertScore computes similarity scores by aligning generated and reference summaries on a token-level. Token alignments are computed greedily to maximize the cosine similarity between contextualized token embeddings from BERT. Precision, recall, and F1 measure using BERT-based text embeddings

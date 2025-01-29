@@ -22,15 +22,31 @@
   * Intended Use: Assesses coverage of known assertions, or facts, represented in human expert "ground truth" summaries. (1) Extract important facts from ground-truth summaries, either manually or using the LLM-as-a-judge approach (2) extract important facts from AI-generated summaries, either manually or using the LLM-as-a-judge approach (3) calculate accuracy, sensitivity, specificity, PPV, NPV of AI-extracted facts as compared to ground-truth facts.
   * Rationale: Recommend use of LLM-as-judge ways of generating claims from reference summaries and comparing those claims against the LLM-generated summary. One such implementation is DocLens, which captures completeness (i.e., claim recall -- requires reference), conciseness (i.e., claim precision -- requires reference), and attribution accuracy (reference-free). Other implementations include SummaQA.
   * Reference: [DocLens: Multi-aspect Fine-grained Medical Text Evaluation](https://aclanthology.org/2024.acl-long.39/)
-  * Open-source tooling: 
+  * Open-source tooling:
+
+ * **ROUGE (Recall-Oriented Understudy for Gisting Evaluation)**
+  * Intended Use: N-gram or Longest Common Subsequence overlap can be measured when reference summary is available.
+  * Rationale: Acknowledge but do not use. Modern summarization systems use abstractive summarization (and not extractive summarization) so ROUGE is not helpful.
+  * Reference: [ROUGE: A Package for Automatic Evaluation of Summaries](https://aclanthology.org/W04-1013.pdf)
+  * Open-source tooling:
+
+ * **BERTScore**
+  * Intended Use: BertScore computes similarity scores by aligning generated and reference summaries on a token-level. Token alignments are computed greedily to maximize the cosine similarity between contextualized token embeddings from BERT. Precision, recall, and F1 measure using BERT-based text embeddings
+  * Rationale: Acknowledge but optional because hard to interpret for a single summary, may be useful to compare LLMs. Modern summarization systems use abstractive summarization -- token-level comparisons, even relying on embeddings, is too coarse.
+  * Reference: [BERTScore: Evaluating Text Generation with BERT](https://arxiv.org/abs/1904.09675)
+  * Open-source tooling: [here](https://github.com/Tiiiger/bert_score#readme)
 
 ### Fairness, Equity, and Bias Management
 
 *(additional detail for the Responsible AI Principle of Fairness, Equity, and Bias Management can be found in the CHAI RAIG)*
 
-Method:
+**Method/Metric:**
 
-Metric:
+ * **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference: []()
+  * Open-source tooling:
 
 ### Safety and Reliability
 

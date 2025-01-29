@@ -10,7 +10,17 @@
 
 *(additional detail for the Responsible AI Principle of Usefulness, Usability, and Efficacy can be found in the CHAI RAIG)*
 
-Method:
+Method/Metric:
+* Physician Documentation Quality Instrument, Nine-item tool (PDQI-9)
+*   Intended Use: 9 question survey that details aspects of usefulness. 
+*   Rationale: 
+*   Reference: [Physician Documentation Quality Instrument (PDQI-9)] (https://pmc.ncbi.nlm.nih.gov/articles/instance/3633322/bin/ACI-03-0164-s001.pdf)
+*   Open-source tooling:
+* DocLens
+*   Intended Use: Assesses coverage of known assertions, or facts, represented in human expert "ground truth" summaries. (1) Extract important facts from ground-truth summaries, either manually or using the LLM-as-a-judge approach (2) extract important facts from AI-generated summaries, either manually or using the LLM-as-a-judge approach (3) calculate accuracy, sensitivity, specificity, PPV, NPV of AI-extracted facts as compared to ground-truth facts.
+*   Rationale: Recommend use of LLM-as-judge ways of generating claims from reference summaries and comparing those claims against the LLM-generated summary. One such implementation is DocLens, which captures completeness (i.e., claim recall -- requires reference), conciseness (i.e., claim precision -- requires reference), and attribution accuracy (reference-free). Other implementations include SummaQA.
+*   Reference: [DocLens: Multi-aspect Fine-grained Medical Text Evaluation] (https://aclanthology.org/2024.acl-long.39/)
+*   Open-source tooling: 
 
 Metric:
 

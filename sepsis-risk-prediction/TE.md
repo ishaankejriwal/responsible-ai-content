@@ -10,105 +10,230 @@
 
 *(additional detail for the Responsible AI Principle of Usefulness, Usability, and Efficacy can be found in the CHAI RAIG)*
 
-Method:
+**Method/Metric:**
 
-* Ground Theory Analysis
+* **Ground Theory Analysis**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
 
-Measure:
+* **Sequential Organ Failure Assessment (SOFA) score**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+ 
+* **Risk Ratio**
+  * Intended Use: outcome rate if exposed to AI model over outcome rate if not exposed to AI model
+  * Rationale: 
+  * Reference:
 
-* Sequential Organ Failure Assessment (SOFA) score
-* Risk ratio (outcome rate if exposed to AI model over outcome rate if not exposed to AI model)
+* **Area under the curve (AUC)—receiver operating characteristic (ROC) (AUC-ROC)**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+ 
+* **Area under the curve (AUC)—precision recall curve (PRC) (AUC-PRC)**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
 
-Metric:
+* **Precision (or Positive Predictive Value, PPV)**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+ 
+* **Recall (or Sensitivity)**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
 
-* Area under the curve (AUC)—receiver operating characteristic (ROC) (AUC-ROC)
-* Area under the curve (AUC)—precision recall curve (PRC) (AUC-PRC)
-* Precision (or Positive Predictive Value, PPV)
-* Recall (or Sensitivity)
-* Specificity
-* F1 score
-* Root Mean Squared Error (RMSE)
-* Coefficient of Determination (R-squared)
+* **Specificity**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+ 
+* **F1 score**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+
+* **Root Mean Squared Error (RMSE)**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+ 
+* **Coefficient of Determination (R-squared)**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
 
 ### Fairness, Equity, and Bias Management
 
 *(additional detail for the Responsible AI Principle of Fairness, Equity, and Bias Management can be found in the CHAI RAIG)*
 
-Method:
+**Method/Metric:**
 
-* HOUSES index to compare balanced error rate (BER) against different socioeconomic status (SES) levels
-* Use of interviews or qualitative approach to understand how biases could be introduced into the workflow
-* Differential Missingness: Target label of interest might be collected differently as function of vulnerable subgroups
-* Potential Differential Performance Across Socio-Economic Statuses (SES)
+* **house-based socioeconomic status (HOUSES) Index**
+  * Intended Use: compare balanced error rate (BER) against different socioeconomic status (SES) levels
+  * Rationale: 
+  * Reference: [HOUSES Index as an Innovative Socioeconomic Measure Predicts Graft Failure Among Kidney Transplant Recipients](https://pubmed.ncbi.nlm.nih.gov/31985729/)
 
-Measure:
+* **Differential Missingness**
+  * Intended Use:
+  * Rationale: Target label of interest might be collected differently as function of vulnerable subgroups
+  * Reference:
+ 
+* **Potential Differential Performance Across Socioeconomic Statuses (SES)**
+  * Intended Use: 
+  * Rationale: 
+  * Reference:
 
-* Parity: Equalized Odds (prediction errors are distributed equally across different groups) or Equalized Opportunity (prediction errors are distributed equally across the different groups, limited to the condition-positive individuals)
+* **Use of interviews or qualitative approach to understand how biases could be introduced into the workflow**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+ 
+* **Parity: Equalized Odds**
+  * Intended Use: prediction errors are distributed equally across different groups
+  * Rationale: Equalized Odds Criterion ensures similar True Positive Rates and False Positive Rates across all demographic groups
+  * Reference:
 
-Metric:
+* **Parity: Equalized Opportunity**
+  * Intended Use: prediction errors are distributed equally across the different groups, limited to the condition-positive individuals
+  * Rationale: Equalized Opportunity Criterion could be used, which means ensuring only similar True Positive Rates across all demographic groups
+  * Reference:
 
-* Area under the curve (AUC)—receiver operating characteristic (ROC) (AUC-ROC)
-* Area under the curve (AUC)—precision recall curve (PRC) (AUC-PRC)
-* Confusion Matrix
-* Parity: Equalized Odds Criterion ensures similar True Positive Rates and False Positive Rates across all demographic groups
-* Parity: Equalized Opportunity Criterion could be used, which means ensuring only similar True Positive Rates across all demographic groups
+* **Area under the curve (AUC)—receiver operating characteristic (ROC) (AUC-ROC)**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+ 
+* **Area under the curve (AUC)—precision recall curve (PRC) (AUC-PRC)**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+
+* **Confusion Matrix**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+
 
 ### Safety and Reliability
 
 *(additional detail for the Responsible AI Principle of Safety and Reliability can be found in the CHAI RAIG)*
 
-Method:
+**Method/Metric:**
 
-* Risk Framework: Assess the safety and reliability of predictive AI algorithms using a risk framework. Examples include: National Institute of Standards and Technology (NIST) Artificial Intelligence Risk Management Framework (AI RMF 1.0), ISO/IEC 23894:2024, ISO/IEC 42001:2023, CHAI Responsible AI Guide
-* **Task Analysis:** Conduct a task analysis, failure modes and effects analysis (FMEA), or detailed walkthroughs to identify potential failure points.
-* **Non-Inferiority Assessment:** Compare the AI system to clinician experts, particularly in cases where prioritization tools are used, to ensure adequacy.
-* **Explainability:** Use explainability to evaluate generalizability, safety, and usability.
-* **Human-in-the-Loop:** Ensure human involvement in high-risk situations for verification of AI outputs.
+* **Risk Framework**
+  * Intended Use: assess the safety and reliability of predictive AI algorithms using a risk framework.
+  * Rationale: 
+  * Reference: examples include National Institute of Standards and Technology (NIST) Artificial Intelligence Risk Management Framework (AI RMF 1.0), ISO/IEC 23894:2024, ISO/IEC 42001:2023, CHAI Responsible AI Guide
 
-Measure:
+* **Task Analysis**
+  * Intended Use: Conduct a task analysis, failure modes and effects analysis (FMEA), or detailed walkthroughs to identify potential failure points.
+  * Rationale: 
+  * Reference:
+ 
+* **Non-Inferiority Assessment**
+  * Intended Use: Compare the AI system to clinician experts, particularly in cases where prioritization tools are used, to ensure adequacy.
+  * Rationale: 
+  * Reference:
+ 
+* **Likelihood of Failure at Identified Failure Points**
+  * Intended Use: measure developed and evaluated during pre-implementation.
+  * Rationale: 
+  * Reference:
 
-* Percentage of Errors: Quantitative measure of errors over a given number of cases.
-* Number of Successful Predictions: Quantitative measure of reliability (e.g., number of correct predictions over total cases).
-* Implications of Inaccuracy: Outcomes such as poorer health outcomes or added stress on the healthcare workforce.
-* Likelihood of Failure at Identified Failure Points: Measure developed and evaluated during pre-implementation.
+* **Number of Successful Predictions**
+  * Intended Use: quantitative measure of reliability (e.g., number of correct predictions over total cases).
+  * Rationale: 
+  * Reference:
+ 
+* **Percentage of Errors**
+  * Intended Use: Quantitative measure of errors over a given number of cases.
+  * Rationale: 
+  * Reference:
 
-Metric:
-
-* Accuracy: Evaluate the correctness of the AI model's predictions (e.g., percentage of correct predictions).
-* Reliability: Consistency of the AI model's performance.
-* False Positives and False Negatives: Metrics for pre-implementation safety evaluation.
-* Explainability Dimensions: Calibrated confidence scores; Clinical judgment of appropriateness for a given measure
+* **Accuracy**
+  * Intended Use: Evaluate the correctness of the AI model's predictions (e.g., percentage of correct predictions).
+  * Rationale: 
+  * Reference:
+    
 
 ### Transparency, Intelligibility, and Accountability
 
 *(additional detail for the Responsible AI Principle of Transparency, Intelligibility, and Accountability can be found in the CHAI RAIG)*
 
-Metric:
+**Method/Metric:**
 
-* Saliency Maps: highlight the important regions of the input data, such as images, that influenced the model’s decisions, but also consider the reliability of these maps and the rational for that region of the data being included
-* Locally Interpretable Model-Agnostic Explanations (LIME) and Shapley Values (SHAP): understand what parts of the input data is influencing the model’s decisions but also consider that the approach does not always give a reason for the data influencing the model.
-* Prototypical Explanations: to identify which parts of the model are contributing to the model’s decisions. This approach relies on human experts to identify prototypes for the explanation to use as a comparison, which can be a limitation of the approach
+* **Saliency Maps**
+  * Intended Use: highlight the important regions of the input data, such as images, that influenced the model’s decisions, but also consider the reliability of these maps and the rational for that region of the data being included
+  * Rationale: 
+  * Reference:
+
+* **Locally Interpretable Model-Agnostic Explanations (LIME) and Shapley Values (SHAP)**
+  * Intended Use: understand what parts of the input data is influencing the model’s decisions but also consider that the approach does not always give a reason for the data influencing the model.
+  * Rationale: 
+  * Reference:
+ 
+* **Prototypical Explanations**
+  * Intended Use: identify which parts of the model are contributing to the model’s decisions. This approach relies on human experts to identify prototypes for the explanation to use as a comparison, which can be a limitation of the approach
+  * Rationale: 
+  * Reference:
+
+* **Availability of AI System Facts**
+  * Intended Use: Include information from CHAI Applied Model Card. Binary (yes/no) response.
+  * Rationale: There are more comprehensive evaluations but for pragmatic reasons we recommend the same evaluation metric for predictive and generative use cases.
+  * Reference: [CHAI Applied Model Card](https://chai.org/draft-chai-applied-model-card/)
+
 
 ### Security and Privacy
 
 *(additional detail for the Responsible AI Principle of Security and Privacy can be found in the CHAI RAIG)*
 
-Method:
+**Method/Metric:**
 
-* Using security guidelines (e.g., NIST, ISO/IEC, OECD) and refining them with nuanced expert judgment.
-* Consulting security-minded individuals and including a Data Protection Officer in the planning phase to develop a data governance strategy.
-* Conducting Data Protection Impact Assessments (DPIA) during the design phase.
-* Threat modeling to anticipate and prepare for potential breaches, including attacker incentives and impact evaluations.
+* **Consult security experts**
+  * Intended Use: this may include folks such as Data Protection Officer in the planning phase to develop a data governance strategy.
+  * Rationale: 
+  * Reference:
 
-Measure:
+* **Leverage industry security guidelines**
+  * Intended Use: use security guidelines (e.g., NIST, ISO/IEC, OECD) and refine them with nuanced expert judgment.
+  * Rationale: 
+  * Reference:
 
-* Evaluation of the likelihood and impact of various attack vectors.
-* Data provenance tracking to ensure data integrity.
+* **Data Protection Impact Assessments (DPIA)**
+  * Intended Use: conducting Data Protection Impact Assessments (DPIA) during the design phase.
+  * Rationale: 
+  * Reference:
+ 
+* **Threat Modeling**
+  * Intended Use: anticipate and prepare for potential breaches, including attacker incentives and impact evaluations.
+  * Rationale: 
+  * Reference:
 
-Metric:
+* **Evaluation of the likelihood and impact of various attack vectors**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+ 
+* **Data Provenance Tracking**
+  * Intended Use: ensure data integrity.
+  * Rationale: 
+  * Reference:
+ 
+* **Numeric results from risk assessments**
+  * Intended Use:
+  * Rationale: 
+  * Reference: e.g., likelihood and severity of attack scenarios
+ 
+* **Outcomes of privacy preservation evaluations**
+  * Intended Use:
+  * Rationale: 
+  * Reference: e.g., degree of compliance from DPIA
 
-* Numeric results from risk assessments (e.g., likelihood and severity of attack scenarios).
-* Outcomes of privacy preservation evaluations (e.g., degree of compliance from DPIA).
 
 ## Post-Deployment
 
@@ -117,6 +242,38 @@ Metric:
 ### Usefulness, Usability, and Efficacy
 
 *(additional detail for the Responsible AI Principle of Usefulness, Usability, and Efficacy can be found in the CHAI RAIG)*
+
+**Method/Metric:**
+
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+ 
+* **here**
+  * Intended Use: outcome rate if exposed to AI model over outcome rate if not exposed to AI model
+  * Rationale: 
+  * Reference:
+
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+ 
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
 
 Method:
 
@@ -138,6 +295,38 @@ Measure:
 
 *(additional detail for the Responsible AI Principle of Fairness, Equity, and Bias Management can be found in the CHAI RAIG)*
 
+**Method/Metric:**
+
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+ 
+* **here**
+  * Intended Use: outcome rate if exposed to AI model over outcome rate if not exposed to AI model
+  * Rationale: 
+  * Reference:
+
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+ 
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+
 Method:
 
 * **Comparative Biases:** Compare the biases of the general population, the specific population, and the data used
@@ -151,6 +340,38 @@ Metric:
 
 *(additional detail for the Responsible AI Principle of Safety and Reliability can be found in the CHAI RAIG)*
 
+**Method/Metric:**
+
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+ 
+* **here**
+  * Intended Use: outcome rate if exposed to AI model over outcome rate if not exposed to AI model
+  * Rationale: 
+  * Reference:
+
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+ 
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+
 Metric:
 
 * **False alarm rate:** A specific quantitative measure of how often the algorithm generates false positives.
@@ -160,6 +381,38 @@ Metric:
 
 *(additional detail for the Responsible AI Principle of Transparency, Intelligibility, and Accountability can be found in the CHAI RAIG)*
 
+**Method/Metric:**
+
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+ 
+* **here**
+  * Intended Use: outcome rate if exposed to AI model over outcome rate if not exposed to AI model
+  * Rationale: 
+  * Reference:
+
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+ 
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+
 Method:
 
 * **Random forest:** to identify the 10 most important features used in predictions and send those features to users to determine where to start the evaluation to explain output; users can focus on the data elements that can change the least to impact the prediction class
@@ -168,6 +421,38 @@ Method:
 ### Security and Privacy
 
 *(additional detail for the Responsible AI Principle of Security and Privacy can be found in the CHAI RAIG)*
+
+**Method/Metric:**
+
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+ 
+* **here**
+  * Intended Use: outcome rate if exposed to AI model over outcome rate if not exposed to AI model
+  * Rationale: 
+  * Reference:
+
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+ 
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+
+* **here**
+  * Intended Use:
+  * Rationale: 
+  * Reference:
 
 Method:
 

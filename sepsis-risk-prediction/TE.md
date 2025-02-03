@@ -73,7 +73,7 @@
 
 **Method/Metric:**
 
-* **house-based socioeconomic status (HOUSES) Index**
+* **Home Ownership, Utilities, Savings, Employment, and Schooling (HOUSES) Index**
   * Intended Use: compare balanced error rate (BER) against different socioeconomic status (SES) levels
   * Rationale: 
   * Reference: [HOUSES Index as an Innovative Socioeconomic Measure Predicts Graft Failure Among Kidney Transplant Recipients](https://pubmed.ncbi.nlm.nih.gov/31985729/)
@@ -245,51 +245,41 @@
 
 **Method/Metric:**
 
-* **here**
-  * Intended Use:
+* **Usability Testing and Heuristic Evaluation**
+  * Intended Use: In addition to the intrinsic and extrinsic evaluation conducted in the pre-implementation stages, one must consider the user’s interaction with the system. Use usability testing and heuristic evaluation to evaluate the AI system's interface.
   * Rationale: 
   * Reference:
 
-* **here**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
- 
-* **here**
-  * Intended Use: outcome rate if exposed to AI model over outcome rate if not exposed to AI model
-  * Rationale: 
-  * Reference:
-
-* **here**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
- 
-* **here**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
-
-* **here**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
-
-Method:
-
-* **Usability Testing and Heuristic Evaluation.** In addition to the intrinsic and extrinsic evaluation conducted in the pre-implementation stages, one must consider the user’s interaction with the system. Use usability testing and heuristic evaluation to evaluate the AI system's interface.
 * **User satisfaction surveys**
-* **Home Ownership, Utilities, Savings, Employment, and Schooling (HOUSES)** index to compare balanced error rate (BER) against different SES levels: The HOUSES index is used to measure SES in healthcare contexts. When applied to fairness metrics like BER, it compares the rate of errors across different SES levels. This helps assess whether an AI model's error rates are equitable across socioeconomic groups, identifying potential disparities in how different SES groups experience model performance (e.g., if low-SES groups are more likely to experience errors
+  * Intended Use:
+  * Rationale: 
+  * Reference:
+ 
+* **Home Ownership, Utilities, Savings, Employment, and Schooling (HOUSES) Index**
+  * Intended Use: compare balanced error rate (BER) against different SES levels: The HOUSES index is used to measure SES in healthcare contexts. When applied to fairness metrics like BER, it compares the rate of errors across different SES levels. This helps assess whether an AI model's error rates are equitable across socioeconomic groups, identifying potential disparities in how different SES groups experience model performance (e.g., if low-SES groups are more likely to experience errors
+  * Rationale: 
+  * Reference:
 
-Metric:
+* **System Usability Scale (SUS)**
+  * Intended Use: can be conducted to measure end-user satisfaction
+  * Rationale: 
+  * Reference:
+ 
+* **Potential Differential Performance Across Socioeconomic Statuses (SES)**
+  * Intended Use: this metric refers to the possibility that an AI model or system performs differently based on the socioeconomic background of the users or subjects. It evaluates whether individuals from different SES levels (e.g., income, education, occupation) experience varying levels of accuracy, error rates, or outcomes from the system, potentially highlighting biases or inequities in how the system treats different socioeconomic groups
+  * Rationale: 
+  * Reference:
 
-* **System Usability Scale (SUS):** can be conducted to measure end-user satisfaction
-* **Potential Differential Performance Across Socio-Economic Statuses (SES):** this metric refers to the possibility that an AI model or system performs differently based on the socioeconomic background of the users or subjects. It evaluates whether individuals from different SES levels (e.g., income, education, occupation) experience varying levels of accuracy, error rates, or outcomes from the system, potentially highlighting biases or inequities in how the system treats different socioeconomic groups
+* **Parity: Equalized Odds**
+  * Intended Use: prediction errors are distributed equally across different groups
+  * Rationale: Equalized Odds Criterion ensures similar True Positive Rates and False Positive Rates across all demographic groups
+  * Reference:
 
-Measure:
-
-* **Equalized Odds** (prediction errors are distributed equally across different groups)
-* **Equalized Opportunity** (prediction errors are distributed equally across the different groups, limited to the condition-positive individuals).
+* **Parity: Equalized Opportunity**
+  * Intended Use: prediction errors are distributed equally across the different groups, limited to the condition-positive individuals
+  * Rationale: Equalized Opportunity Criterion could be used, which means ensuring only similar True Positive Rates across all demographic groups
+  * Reference:
+    
 
 ### Fairness, Equity, and Bias Management
 
@@ -297,44 +287,22 @@ Measure:
 
 **Method/Metric:**
 
-* **here**
-  * Intended Use:
+* **Comparative Biases**
+  * Intended Use: Compare the biases of the general population, the specific population, and the data used
   * Rationale: 
   * Reference:
 
-* **here**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
- 
-* **here**
-  * Intended Use: outcome rate if exposed to AI model over outcome rate if not exposed to AI model
-  * Rationale: 
-  * Reference:
-
-* **here**
-  * Intended Use:
+* **Implement a process for identifying and recognizing model drift**
+  * Intended Use: three main types of drift that should be acknowledged, monitored and mitigated: concept drift, data drift, label drift.
   * Rationale: 
   * Reference:
  
-* **here**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
-
-* **here**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
-
-Method:
-
-* **Comparative Biases:** Compare the biases of the general population, the specific population, and the data used
-* **Implement a process for identifying and recognizing model drift:** three main types of drift that should be acknowledged, monitored and mitigated: concept drift, data drift, label drift.
-
-Metric:
-
 * **balanced error rate (BER)**
+  * Intended Use: 
+  * Rationale: 
+  * Reference:
+
+
 
 ### Safety and Reliability
 
@@ -342,40 +310,16 @@ Metric:
 
 **Method/Metric:**
 
-* **here**
-  * Intended Use:
+* **False alarm rate**
+  * Intended Use: specific quantitative measure of how often the algorithm generates false positives.
   * Rationale: 
   * Reference:
 
-* **here**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
- 
-* **here**
-  * Intended Use: outcome rate if exposed to AI model over outcome rate if not exposed to AI model
+* **False negative rate**
+  * Intended Use: specific quantitative measure of how often the algorithm fails to detect sepsis
   * Rationale: 
   * Reference:
 
-* **here**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
- 
-* **here**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
-
-* **here**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
-
-Metric:
-
-* **False alarm rate:** A specific quantitative measure of how often the algorithm generates false positives.
-* **False negative rate:** A quantitative measure of how often the algorithm fails to detect sepsis
 
 ### Transparency, Intelligibility, and Accountability
 
@@ -383,40 +327,11 @@ Metric:
 
 **Method/Metric:**
 
-* **here**
-  * Intended Use:
+* **Random Forest**
+  * Intended Use: identify the 10 most important features used in predictions and send those features to users to determine where to start the evaluation to explain output; users can focus on the data elements that can change the least to impact the prediction class. Store all predictions of the model for a specified time period to allow for ongoing monitoring of performance degradation
   * Rationale: 
   * Reference:
 
-* **here**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
- 
-* **here**
-  * Intended Use: outcome rate if exposed to AI model over outcome rate if not exposed to AI model
-  * Rationale: 
-  * Reference:
-
-* **here**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
- 
-* **here**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
-
-* **here**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
-
-Method:
-
-* **Random forest:** to identify the 10 most important features used in predictions and send those features to users to determine where to start the evaluation to explain output; users can focus on the data elements that can change the least to impact the prediction class
-* Store all predictions of the model for a specified time period to allow for ongoing monitoring of performance degradation
 
 ### Security and Privacy
 
@@ -424,41 +339,27 @@ Method:
 
 **Method/Metric:**
 
-* **here**
-  * Intended Use:
+* **Dynamic Post-implementation Audits**
+  * Intended Use: include regularly updated security protocols based on new threats and emerging vulnerabilities.
   * Rationale: 
   * Reference:
 
-* **here**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
- 
-* **here**
-  * Intended Use: outcome rate if exposed to AI model over outcome rate if not exposed to AI model
-  * Rationale: 
-  * Reference:
-
-* **here**
-  * Intended Use:
+* **Limiting Access to AI Models**
+  * Intended Use: to mitigate privacy attacks, ensuring only authorized users have access to sensitive parts of the model and its output.
   * Rationale: 
   * Reference:
  
-* **here**
-  * Intended Use:
+* **Intercepting AI Model Outputs**
+  * Intended Use: leverage to counter security threats and prevent adversarial data extraction.
   * Rationale: 
   * Reference:
 
-* **here**
-  * Intended Use:
+* **Input Filtering**
+  * Intended Use: leverage to mitigate adversarial attacks, though acknowledging its potential weaknesses.
   * Rationale: 
   * Reference:
-
-Method:
-
-* **Dynamic post-implementation audits** with regularly updated security protocols based on new threats and emerging vulnerabilities.
-* **Limiting access to AI models** to mitigate privacy attacks, ensuring only authorized users have access to sensitive parts of the model and its output.
-* **Intercepting AI model outputs** to counter security threats and prevent adversarial data extraction.
-* **Input filtering** to mitigate adversarial attacks, though acknowledging its potential weaknesses.
-
-**Authenticated inputs or inputs with provenance** to defend against adversarial attacks, particularly in sensitive applications like imaging.
+ 
+* **Authenticated Inputs or Inputs with Provenance**
+  * Intended Use: leverage to defend against adversarial attacks, particularly in sensitive applications like imaging.
+  * Rationale: 
+  * Reference:

@@ -12,57 +12,57 @@
 
 **Method/Metric:**
 
-* **Ground Theory Analysis**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
-
 * **Sequential Organ Failure Assessment (SOFA) score**
-  * Intended Use:
+  * Intended Use: numerically quantifies the number and severity of failed organs. The primary purpose of the SOFA score is, as far as is possible, to objectively describe organ (dys)function rather than to predict outcome, so no associated equation was developed for mortality prediction.
   * Rationale: 
-  * Reference:
+  * Reference: [The Sequential Organ Failure Assessment score for predicting outcome in patients with severe sepsis and evidence of hypoperfusion at the time of emergency department presentation](https://pmc.ncbi.nlm.nih.gov/articles/PMC2703722/)
  
 * **Risk Ratio**
-  * Intended Use: outcome rate if exposed to AI model over outcome rate if not exposed to AI model
+  * Intended Use: risk of outcome rate if exposed to sepsis risk prediction AI model over outcome rate if not exposed to sepsis risk prediction AI model
   * Rationale: 
-  * Reference:
+  * Reference: [The Relative Merits of Risk Ratios and Odds Ratios](https://jamanetwork.com/journals/jamapediatrics/fullarticle/381459)
 
 * **Area under the curve (AUC)—receiver operating characteristic (ROC) (AUC-ROC)**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
+  * Intended Use: metric computes the area under the curve (AUC) for the Receiver Operating Characteristic Curve (ROC). The return values represent how well the model used is predicting the correct classes, based on the input data. A score of 0.5 means that the model is predicting exactly at chance
+  * Rationale: Evaluates tradeoff between true positive and false positive. Useful for binary classification with clear positive and negative classes, imbalanced datasets where one class is significantly underrepresented (accuracy inflates), and threshold independent evaluation (evaluates across all thresholds to identify optimal performance for specific applicaiton/population); useful depending on whether false positives, or in the case of sepsis, false negatives, carry higher consequences.
+  * Reference: [Classification: ROC and AUC](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)
  
 * **Area under the curve (AUC)—precision recall curve (PRC) (AUC-PRC)**
-  * Intended Use:
+  * Intended Use: model performance metric for binary responses that is appropriate for rare events and not dependent on model specificity
   * Rationale: 
-  * Reference:
+  * Reference: [The relationship between Precision-Recall and ROC curves](https://dl.acm.org/doi/abs/10.1145/1143844.1143874)
 
 * **Precision (or Positive Predictive Value, PPV)**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
+  * Intended Use: the fraction of correctly labeled positive examples out of all of the examples that were labeled as positive. It is computed via the equation: Precision = TP / (TP + FP) where TP is the True positives (i.e. the examples correctly labeled as positive) and FP is the False positive examples (i.e. the examples incorrectly labeled as positive).
+  * Rationale: Measure of accuracy for a positive result (proportion of true positives for all positive predictions), useful when false positives are costly or undesireable. Valuable in datasets with strong class imbalance, where positive cases are rare (medical diagnosis). Traditional accuracy can be misleading because it would be biased towards majority class. Also helpful when wanting to minimize false positives (cost = stress, unnecessary medical procedures) 
+  * Reference: 
  
 * **Recall (or Sensitivity)**
-  * Intended Use:
-  * Rationale: 
+  * Intended Use: Recall is the fraction of the positive examples that were correctly labeled by the model as positive. It can be computed with the equation: Recall = TP / (TP + FN) Where TP is the number of true positives and FN is the number of false negatives.
+  * Rationale: useful when it's important to capture all positive cases (e.g. sepsis), even if it means tolerating some false positives. (e.g. cost of false negatives is really high). This is also appropriate for imbalanced datasets with rare positive cases, mainly for binary classification. Evaluated often alongside precision.
   * Reference:
 
 * **Specificity**
-  * Intended Use:
+  * Intended Use: the probability of a negative test result, conditioned on the individual truly being negative
   * Rationale: 
   * Reference:
  
 * **F1 score**
-  * Intended Use:
-  * Rationale: 
+  * Intended Use: calculated from the precision and recall of the test, where the precision is the number of true positive results divided by the number of all positive results, including those not identified correctly, and the recall is the number of true positive results divided by the number of all samples that should have been identified as positive.
+  * Rationale: Combines precision and recall into a single value, provide balance view of accuracy in all positive predictions and completenes in capturing positives. Its useful when there is class imbalance and the positive class is rare. (the ability of the model to correctly predict the minority class without being overly affected by more prevalent class), good when there is a high cost of false negatives and/or false positives (eg. healthcare/sepsis), binary or multi-class classification prioritizing positive class, provides trade off between precision and recall.  While F1 gives equal weight to precision and recall, F2 or F0.5 can be used if putting more weight on recall or precision, respectively. 
   * Reference:
 
 * **Root Mean Squared Error (RMSE)**
-  * Intended Use:
+  * Intended Use: measure of the differences between values (sample or population values) predicted by a model or an estimator and the values observed. The RMSE represents the square root of the second sample moment of the differences between predicted values and observed values or the quadratic mean of these differences.
   * Rationale: 
-  * Reference:
+  * Reference: [Root-mean-square error (RMSE) or mean absolute error (MAE): when to use them or not](https://gmd.copernicus.org/articles/15/5481/2022/gmd-15-5481-2022-discussion.html)
  
 * **Coefficient of Determination (R-squared)**
+  * Intended Use: the proportion of the variance in the dependent variable that is predictable from the independent variables.
+  * Rationale: 
+  * Reference: [The Coefficient of Determination: Understanding r squared and R squared](
+ 
+* **Ground Theory Analysis**
   * Intended Use:
   * Rationale: 
   * Reference:
@@ -73,13 +73,13 @@
 
 **Method/Metric:**
 
-* **Home Ownership, Utilities, Savings, Employment, and Schooling (HOUSES) Index**
+* **HOUsing-based SocioEconomic Status measure (HOUSES) Index**
   * Intended Use: compare balanced error rate (BER) against different socioeconomic status (SES) levels
   * Rationale: 
-  * Reference: [HOUSES Index as an Innovative Socioeconomic Measure Predicts Graft Failure Among Kidney Transplant Recipients](https://pubmed.ncbi.nlm.nih.gov/31985729/)
+  * Reference: [Assessing socioeconomic bias in machine learning algorithms in health care: a case study of the HOUSES index](https://pubmed.ncbi.nlm.nih.gov/35396996/)
 
 * **Differential Missingness**
-  * Intended Use:
+  * Intended Use: probability of data being missing varies across different groups or conditions within a study. This can lead to biased estimates and affect the validity of the study's conclusions. 
   * Rationale: Target label of interest might be collected differently as function of vulnerable subgroups
   * Reference:
  
@@ -93,30 +93,21 @@
   * Rationale: 
   * Reference:
  
-* **Parity: Equalized Odds**
+* **Equalized Odds**
   * Intended Use: prediction errors are distributed equally across different groups
-  * Rationale: Equalized Odds Criterion ensures similar True Positive Rates and False Positive Rates across all demographic groups
+  * Rationale: use to evaluate Parity; Equalized Odds Criterion ensures similar True Positive Rates and False Positive Rates across all demographic groups
   * Reference:
 
-* **Parity: Equalized Opportunity**
-  * Intended Use: prediction errors are distributed equally across the different groups, limited to the condition-positive individuals
-  * Rationale: Equalized Opportunity Criterion could be used, which means ensuring only similar True Positive Rates across all demographic groups
-  * Reference:
+* **Equality of Opportunity Difference (EOD)**
+  * Intended Use: measures the deviation from the equality of opportunity, which means that the same proportion of each population receives the favorable outcome. This measure must be equal to 0 to be fair.
+  * Rationale: depends only on the joint statistics of the predictor, the target and the protected attribute, but not on interpretation of individual features.
+  * Reference: [Equality of Opportunity in Supervised Learning](https://arxiv.org/abs/1610.02413)
 
-* **Area under the curve (AUC)—receiver operating characteristic (ROC) (AUC-ROC)**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
- 
-* **Area under the curve (AUC)—precision recall curve (PRC) (AUC-PRC)**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
 
 * **Confusion Matrix**
-  * Intended Use:
+  * Intended Use: a table that is used to define the performance of a classification algorithm. A confusion matrix visualizes and summarizes the performance of a classification algorithm.
   * Rationale: 
-  * Reference:
+  * Reference: [Confusion Matrix](https://www.sciencedirect.com/topics/engineering/confusion-matrix)
 
 
 ### Safety and Reliability
@@ -156,9 +147,9 @@
   * Reference:
 
 * **Accuracy**
-  * Intended Use: Evaluate the correctness of the AI model's predictions (e.g., percentage of correct predictions).
+  * Intended Use: Evaluate the correctness of the AI model's predictions (e.g., percentage of correct predictions). Accuracy = (TP + TN) / (TP + TN + FP + FN) , where: TP = True Positive; TN = True Negative; FP = False Positive; FN = False Negative.
   * Rationale: 
-  * Reference:
+  * Reference: 
     
 
 ### Transparency, Intelligibility, and Accountability
@@ -170,13 +161,18 @@
 * **Saliency Maps**
   * Intended Use: highlight the important regions of the input data, such as images, that influenced the model’s decisions, but also consider the reliability of these maps and the rational for that region of the data being included
   * Rationale: 
-  * Reference:
+  * Reference: 
 
-* **Locally Interpretable Model-Agnostic Explanations (LIME) and Shapley Values (SHAP)**
-  * Intended Use: understand what parts of the input data is influencing the model’s decisions but also consider that the approach does not always give a reason for the data influencing the model.
+* **Locally Interpretable Model-Agnostic Explanations (LIME)**
+  * Intended Use: method developed to enhance the explainability and transparency of machine learning models, particularly those that are complex and difficult to interpret. The core idea of LIME is to approximate the behavior of a complex model with a simpler, more interpretable model in the context of a specific prediction. 
   * Rationale: 
-  * Reference:
- 
+  * Reference: ["Why Should I Trust You?": Explaining the Predictions of Any Classifier](https://arxiv.org/abs/1602.04938)
+
+* **Shapley Additive Explanation (SHAP)**
+  * Intended Use: method that quantifies the contribution of each feature to the output of a predictive model. Rooted in cooperative game theory, SHAP values provide a theoretically sound approach for interpreting complex models by distributing the prediction difference fairly among the input features.
+  * Rationale: 
+  * Reference: [A unified approach to interpreting model predictions](https://dl.acm.org/doi/10.5555/3295222.3295230)
+    
 * **Prototypical Explanations**
   * Intended Use: identify which parts of the model are contributing to the model’s decisions. This approach relies on human experts to identify prototypes for the explanation to use as a comparison, which can be a limitation of the approach
   * Rationale: 
@@ -207,7 +203,7 @@
 * **Data Protection Impact Assessments (DPIA)**
   * Intended Use: conducting Data Protection Impact Assessments (DPIA) during the design phase.
   * Rationale: 
-  * Reference:
+  * Reference: [Data Protection Impact Assessments (DPIA)](https://gdpr.eu/data-protection-impact-assessment-template/)
  
 * **Threat Modeling**
   * Intended Use: anticipate and prepare for potential breaches, including attacker incentives and impact evaluations.
@@ -245,39 +241,29 @@
 
 **Method/Metric:**
 
-* **Usability Testing and Heuristic Evaluation**
-  * Intended Use: In addition to the intrinsic and extrinsic evaluation conducted in the pre-implementation stages, one must consider the user’s interaction with the system. Use usability testing and heuristic evaluation to evaluate the AI system's interface.
-  * Rationale: 
-  * Reference:
-
-* **User satisfaction surveys**
-  * Intended Use:
-  * Rationale: 
-  * Reference:
- 
-* **Home Ownership, Utilities, Savings, Employment, and Schooling (HOUSES) Index**
-  * Intended Use: compare balanced error rate (BER) against different SES levels: The HOUSES index is used to measure SES in healthcare contexts. When applied to fairness metrics like BER, it compares the rate of errors across different SES levels. This helps assess whether an AI model's error rates are equitable across socioeconomic groups, identifying potential disparities in how different SES groups experience model performance (e.g., if low-SES groups are more likely to experience errors
-  * Rationale: 
-  * Reference:
-
 * **System Usability Scale (SUS)**
-  * Intended Use: can be conducted to measure end-user satisfaction
+  * Intended Use: ten-item scale giving a global view of subjective assessments of usability; SUS is a Likert Scale which can be conducted to measure end-user satisfaction
   * Rationale: 
-  * Reference:
+  * Reference: [SUS - A quick and dirty usability scale](https://digital.ahrq.gov/sites/default/files/docs/survey/systemusabilityscale%2528sus%2529_comp%255B1%255D.pdf)
  
 * **Potential Differential Performance Across Socioeconomic Statuses (SES)**
   * Intended Use: this metric refers to the possibility that an AI model or system performs differently based on the socioeconomic background of the users or subjects. It evaluates whether individuals from different SES levels (e.g., income, education, occupation) experience varying levels of accuracy, error rates, or outcomes from the system, potentially highlighting biases or inequities in how the system treats different socioeconomic groups
   * Rationale: 
   * Reference:
 
-* **Parity: Equalized Odds**
+* **Equalized Odds**
   * Intended Use: prediction errors are distributed equally across different groups
-  * Rationale: Equalized Odds Criterion ensures similar True Positive Rates and False Positive Rates across all demographic groups
+  * Rationale: use to evaluate Parity; Equalized Odds Criterion ensures similar True Positive Rates and False Positive Rates across all demographic groups
   * Reference:
 
-* **Parity: Equalized Opportunity**
-  * Intended Use: prediction errors are distributed equally across the different groups, limited to the condition-positive individuals
-  * Rationale: Equalized Opportunity Criterion could be used, which means ensuring only similar True Positive Rates across all demographic groups
+* **Usability Testing and Heuristic Evaluation**
+  * Intended Use: In addition to the intrinsic and extrinsic evaluation conducted in the pre-implementation stages, one must consider the user’s interaction with the system. Use usability testing and heuristic evaluation to evaluate the AI system's interface.
+  * Rationale: 
+  * Reference:
+  
+* **User Satisfaction Survey**
+  * Intended Use:
+  * Rationale: 
   * Reference:
     
 
@@ -287,8 +273,23 @@
 
 **Method/Metric:**
 
+* **HOUsing-based SocioEconomic Status measure (HOUSES) Index**
+  * Intended Use: compare balanced error rate (BER) against different socioeconomic status (SES) levels
+  * Rationale: 
+  * Reference: [Assessing socioeconomic bias in machine learning algorithms in health care: a case study of the HOUSES index](https://pubmed.ncbi.nlm.nih.gov/35396996/)
+
+* **Equality of Opportunity Difference (EOD)**
+  * Intended Use: measures the deviation from the equality of opportunity, which means that the same proportion of each population receives the favorable outcome. This measure must be equal to 0 to be fair.
+  * Rationale: depends only on the joint statistics of the predictor, the target and the protected attribute, but not on interpretation of individual features.
+  * Reference: [Equality of Opportunity in Supervised Learning](https://arxiv.org/abs/1610.02413)
+
+* **balanced error rate (BER)**
+  * Intended Use: average of the errors on each class: BER = 0.5*(FP/(TN+FP) + FN/(FN+TP)), where: TP = True Positive; TN = True Negative; FP = False Positive; FN = False Negative.
+  * Rationale: 
+  * Reference:
+
 * **Comparative Biases**
-  * Intended Use: Compare the biases of the general population, the specific population, and the data used
+  * Intended Use: compare the biases of the general population, the specific population, and the data used
   * Rationale: 
   * Reference:
 
@@ -296,12 +297,6 @@
   * Intended Use: three main types of drift that should be acknowledged, monitored and mitigated: concept drift, data drift, label drift.
   * Rationale: 
   * Reference:
- 
-* **balanced error rate (BER)**
-  * Intended Use: 
-  * Rationale: 
-  * Reference:
-
 
 
 ### Safety and Reliability
@@ -311,14 +306,14 @@
 **Method/Metric:**
 
 * **False alarm rate**
-  * Intended Use: specific quantitative measure of how often the algorithm generates false positives.
+  * Intended Use: probability that a detection decision of “yes” is made when the phenomena of interest is absent; specific quantitative measure of how often the algorithm generates false positives.
   * Rationale: 
-  * Reference:
+  * Reference: [False Alarm Rate](https://www.sciencedirect.com/topics/engineering/false-alarm-rate#:~:text=False%20alarm%20rate%20refers%20to,phenomena%20of%20interest%20is%20absent)
 
 * **False negative rate**
-  * Intended Use: specific quantitative measure of how often the algorithm fails to detect sepsis
+  * Intended Use: number of false negatives, divided by the number of all samples that are actually positives; specific quantitative measure of how often the algorithm fails to detect sepsis
   * Rationale: 
-  * Reference:
+  * Reference: [False Negative Rate](https://www.sciencedirect.com/topics/engineering/false-negative)
 
 
 ### Transparency, Intelligibility, and Accountability
@@ -330,7 +325,7 @@
 * **Random Forest**
   * Intended Use: identify the 10 most important features used in predictions and send those features to users to determine where to start the evaluation to explain output; users can focus on the data elements that can change the least to impact the prediction class. Store all predictions of the model for a specified time period to allow for ongoing monitoring of performance degradation
   * Rationale: 
-  * Reference:
+  * Reference: [Random Forest](https://meridian.allenpress.com/jim/article/47/1/31/131479/Random-Forest)
 
 
 ### Security and Privacy

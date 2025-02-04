@@ -82,6 +82,16 @@
   * Intended Use: probability of data being missing varies across different groups or conditions within a study. This can lead to biased estimates and affect the validity of the study's conclusions. 
   * Rationale: Target label of interest might be collected differently as function of vulnerable subgroups
   * Reference:
+
+* **Equality of Opportunity Difference (EOD)**
+  * Intended Use: measures the deviation from the equality of opportunity, which means that the same proportion of each population receives the favorable outcome. This measure must be equal to 0 to be fair.
+  * Rationale: depends only on the joint statistics of the predictor, the target and the protected attribute, but not on interpretation of individual features.
+  * Reference: [Equality of Opportunity in Supervised Learning](https://arxiv.org/abs/1610.02413)
+
+* **Confusion Matrix**
+  * Intended Use: a table that is used to define the performance of a classification algorithm. A confusion matrix visualizes and summarizes the performance of a classification algorithm.
+  * Rationale: 
+  * Reference: [Confusion Matrix](https://www.sciencedirect.com/topics/engineering/confusion-matrix)
  
 * **Potential Differential Performance Across Socioeconomic Statuses (SES)**
   * Intended Use: 
@@ -98,23 +108,17 @@
   * Rationale: use to evaluate Parity; Equalized Odds Criterion ensures similar True Positive Rates and False Positive Rates across all demographic groups
   * Reference:
 
-* **Equality of Opportunity Difference (EOD)**
-  * Intended Use: measures the deviation from the equality of opportunity, which means that the same proportion of each population receives the favorable outcome. This measure must be equal to 0 to be fair.
-  * Rationale: depends only on the joint statistics of the predictor, the target and the protected attribute, but not on interpretation of individual features.
-  * Reference: [Equality of Opportunity in Supervised Learning](https://arxiv.org/abs/1610.02413)
-
-
-* **Confusion Matrix**
-  * Intended Use: a table that is used to define the performance of a classification algorithm. A confusion matrix visualizes and summarizes the performance of a classification algorithm.
-  * Rationale: 
-  * Reference: [Confusion Matrix](https://www.sciencedirect.com/topics/engineering/confusion-matrix)
-
 
 ### Safety and Reliability
 
 *(additional detail for the Responsible AI Principle of Safety and Reliability can be found in the CHAI RAIG)*
 
 **Method/Metric:**
+
+* **Accuracy**
+  * Intended Use: Evaluate the correctness of the AI model's predictions (e.g., percentage of correct predictions). Accuracy = (TP + TN) / (TP + TN + FP + FN) , where: TP = True Positive; TN = True Negative; FP = False Positive; FN = False Negative.
+  * Rationale: 
+  * Reference: 
 
 * **Risk Framework**
   * Intended Use: assess the safety and reliability of predictive AI algorithms using a risk framework.
@@ -145,11 +149,6 @@
   * Intended Use: Quantitative measure of errors over a given number of cases.
   * Rationale: 
   * Reference:
-
-* **Accuracy**
-  * Intended Use: Evaluate the correctness of the AI model's predictions (e.g., percentage of correct predictions). Accuracy = (TP + TN) / (TP + TN + FP + FN) , where: TP = True Positive; TN = True Negative; FP = False Positive; FN = False Negative.
-  * Rationale: 
-  * Reference: 
     
 
 ### Transparency, Intelligibility, and Accountability

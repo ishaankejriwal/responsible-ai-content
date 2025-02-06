@@ -1,8 +1,10 @@
+---
 name: Feedback Form - Responsible AI Content
-about: Please use this Feedback Form to suggest changes or improvements to the Responsible AI Content in this repository.
-title: Feedback Form - Responsible AI Content
-labels: []
+about: Suggest changes or improvements to the Responsible AI Content in this repository.
+title: "[Feedback]: "
+labels: ["feedback", "enhancement"]
 assignees: []
+---
 
 fields:
   - name: Which document or section are you referring to?

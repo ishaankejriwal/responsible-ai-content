@@ -1,27 +1,30 @@
-name	about	title	labels	assignees
-Feedback Form - Responsible AI Content
-Please use this Feedback Form to suggest changes or improvements to the Responsible AI Content in this repository.
-Which document or section are you referring to?
+name: Feedback Form - Responsible AI Content
+about: Please use this Feedback Form to suggest changes or improvements to the Responsible AI Content in this repository.
+title: Feedback Form - Responsible AI Content
+labels: []
+assignees: []
 
-Provide the title or link to the specific document or section.
-Example: "patient-discharge-summarization / README.md" or "[Link to the specific section]"
-What would you like to see changed?
+fields:
+  - name: Which document or section are you referring to?
+    description: Provide the title or link to the specific document or section.
+    example: "patient-discharge-summarization / README.md" or "[Link to the specific section]"
 
-Describe the specific content you believe should be updated, clarified, or improved.
-Example: "Intended Use description for DocLens needs to be refined."
-How do you suggest it be improved?
+  - name: What would you like to see changed?
+    description: Describe the specific content you believe should be updated, clarified, or improved.
+    example: "Intended Use description for DocLens needs to be refined."
 
-Offer your recommendation for enhancing the content.
-Example: "Language to improve the Intended Use description includes: [add language here]"
-Why is this change important?
+  - name: How do you suggest it be improved?
+    description: Offer your recommendation for enhancing the content.
+    example: "Language to improve the Intended Use description includes: [add language here]"
 
-Explain how this modification will benefit users or improve the repository.
-Example: "Providing further contextualization will help users better understand and implement the DocLens method/metric."
-Can you provide an example or reference? (Optional)
+  - name: Why is this change important?
+    description: Explain how this modification will benefit users or improve the repository.
+    example: "Providing further contextualization will help users better understand and implement the DocLens method/metric."
 
-If available, share a link, screenshot, or text that illustrates your suggestion.
-Example: "See the DocLens description in [Another Resource] for a comprehensive explanation."
-Additional comments or concerns?
+  - name: Can you provide an example or reference? (Optional)
+    description: If available, share a link, screenshot, or text that illustrates your suggestion.
+    example: "See the DocLens description in [Another Resource] for a comprehensive explanation."
 
-Any other feedback or questions?
-Example: "Is there a plan to add more use cases in the future?"
+  - name: Additional comments or concerns?
+    description: Any other feedback or questions?
+    example: "Is there a plan to add more use cases in the future?"

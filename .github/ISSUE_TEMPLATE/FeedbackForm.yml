@@ -12,11 +12,11 @@ body:
         Use this form to suggest changes or improvements to the Responsible AI Content in this repository.
         Please fill out the details below.
 
-  - type: input
+  - type: textarea
     id: document_section
     attributes:
       label: "Which document or section are you referring to?"
-      description: "Provide the title or link to the specific document or section. For Example: 'patient-discharge-summarization / README.md' or '[Link to section]'" 
+      description: "Provide the title or link to the specific document or section." 
       placeholder: 
     validations:
       required: true

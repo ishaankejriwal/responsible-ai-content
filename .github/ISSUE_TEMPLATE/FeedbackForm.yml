@@ -1,12 +1,10 @@
----
 name: Feedback Form - Responsible AI Content
 about: Suggest changes or improvements to the Responsible AI Content in this repository.
 title: "[Feedback]: "
 labels: ["feedback", "enhancement"]
 assignees: []
----
 
-fields:
+body:
   - name: Which document or section are you referring to?
     description: Provide the title or link to the specific document or section.
     example: "patient-discharge-summarization / README.md" or "[Link to the specific section]"

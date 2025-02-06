@@ -8,23 +8,23 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 📢 Responsible AI Content Feedback
-        Thank you for providing feedback to improve the Responsible AI content in this repository.
+        ## Responsible AI Content Feedback
+        Use this form to suggest changes or improvements to the Responsible AI Content in this repository.
         Please fill out the details below.
 
   - type: input
     id: document_section
     attributes:
-      label: "📄 Which document or section are you referring to?"
-      description: "Provide the title or link to the specific document or section."
-      placeholder: '"patient-discharge-summarization / README.md" or "[Link to section]"'
+      label: "Which document or section are you referring to?"
+      description: "Provide the title or link to the specific document or section. For Example: 'patient-discharge-summarization / README.md' or '[Link to section]'" 
+      placeholder: 
     validations:
       required: true
 
   - type: textarea
     id: suggested_change
     attributes:
-      label: "✏️ What would you like to see changed?"
+      label: "What would you like to see changed?"
       description: "Describe the specific content you believe should be updated, clarified, or improved."
       placeholder: "Intended Use description for DocLens needs to be refined."
     validations:
@@ -33,7 +33,7 @@ body:
   - type: textarea
     id: improvement_suggestion
     attributes:
-      label: "💡 How do you suggest it be improved?"
+      label: "How do you suggest it be improved?"
       description: "Offer your recommendation for enhancing the content."
       placeholder: "Language to improve the Intended Use description includes: [add language here]"
     validations:
@@ -42,7 +42,7 @@ body:
   - type: textarea
     id: importance
     attributes:
-      label: "🚀 Why is this change important?"
+      label: "Why is this change important?"
       description: "Explain how this modification will benefit users or improve the repository."
       placeholder: "Providing further contextualization will help users better understand and implement the DocLens method."
     validations:
@@ -51,13 +51,13 @@ body:
   - type: textarea
     id: reference_example
     attributes:
-      label: "🔗 Can you provide an example or reference? (Optional)"
+      label: "Can you provide an example or reference? (Optional)"
       description: "If available, share a link, screenshot, or text that illustrates your suggestion."
       placeholder: "See the DocLens description in [Another Resource] for a comprehensive explanation."
 
   - type: textarea
     id: additional_comments
     attributes:
-      label: "💬 Additional comments or concerns?"
+      label: "Additional comments or concerns?"
       description: "Any other feedback or questions?"
       placeholder: "Is there a plan to add more use cases in the future?"

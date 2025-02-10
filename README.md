@@ -30,9 +30,9 @@ Feedback Form is available [here](https://github.com/coalition-for-health-ai/res
 3. CHAI assigns who will be the Contributor to submit a Pull Request (PR) with the language as defined in step 3.
 4. CHAI Program Management approves the PR; changes are automatically reflected in the latest version of the repository.
 
-## Editing the GitHub Repository
+## Editing the Repository
 
-- **Diversity of Committers** – CHAI needs to ensure multiple organizations are committing changes to the CHAI GitHub, not just CHAI internal team.
+- Diversity of Committers: CHAI will ensure multiple organizations are committing changes to the CHAI GitHub, not just CHAI internal team.
 
 ## Good Practices
 

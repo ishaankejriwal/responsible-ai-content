@@ -14,15 +14,19 @@
 
 * **Physician Documentation Quality Instrument, Nine-item tool (PDQI-9)**
   * Intended Use: 9 part questionnaire that surveys aspects of usefulness. 
-  * Rationale: 
+  * Rationale: in the context of note summarization, PDQI-9 is best used for obtaining human feedback on note quality (v. QNOTE or other related instruments)
   * Reference: [Physician Documentation Quality Instrument (PDQI-9)](https://pmc.ncbi.nlm.nih.gov/articles/instance/3633322/bin/ACI-03-0164-s001.pdf)
   * Open-source tooling:
+  * Monitoring Guidance (approach and frequency):
+  * Responsible User for Monitoring (developer or implementer):
   
 * **DocLens**
   * Intended Use: Assesses coverage of known assertions, or facts, represented in human expert "ground truth" summaries. (1) Extract important facts from ground-truth summaries, either manually or using the LLM-as-a-judge approach (2) extract important facts from AI-generated summaries, either manually or using the LLM-as-a-judge approach (3) calculate accuracy, sensitivity, specificity, PPV, NPV of AI-extracted facts as compared to ground-truth facts.
   * Rationale: Recommend use of LLM-as-judge ways of generating claims from reference summaries and comparing those claims against the LLM-generated summary. One such implementation is DocLens, which captures completeness (i.e., claim recall -- requires reference), conciseness (i.e., claim precision -- requires reference), and attribution accuracy (reference-free). Other implementations include SummaQA.
   * Reference: [DocLens: Multi-aspect Fine-grained Medical Text Evaluation](https://aclanthology.org/2024.acl-long.39/)
   * Open-source tooling:
+  * Monitoring Guidance (approach and frequency):
+  * Responsible User for Monitoring (developer or implementer):
 
  * **ROUGE (Recall-Oriented Understudy for Gisting Evaluation)**
    * Intended Use: N-gram or Longest Common Subsequence overlap can be measured when reference summary is available.
@@ -101,6 +105,8 @@
    * Rationale: given collection of PDQI-9 information from above, via Usefulness principle, stratify to assess similarities/differences across different patient groups.
    * Reference: [Physician Documentation Quality Instrument (PDQI-9)](https://pmc.ncbi.nlm.nih.gov/articles/instance/3633322/bin/ACI-03-0164-s001.pdf)
    * Open-source tooling:
+   * Monitoring Guidance (approach and frequency):
+   * Responsible User for Monitoring (developer or implementer):
   
   * **Counterfactual DocLens**
     * Intended Use: recommend developer change out the actual source text. Recommend implementer  evaluate DocLens stratified by actual patient category.

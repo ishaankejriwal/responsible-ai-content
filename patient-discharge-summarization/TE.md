@@ -17,16 +17,18 @@
   * Rationale: in the context of note summarization, PDQI-9 is best used for obtaining human feedback on note quality (v. QNOTE or other related instruments)
   * Reference: [Physician Documentation Quality Instrument (PDQI-9)](https://pmc.ncbi.nlm.nih.gov/articles/instance/3633322/bin/ACI-03-0164-s001.pdf)
   * Open-source tooling:
-  * Monitoring Guidance (approach and frequency):
-  * Responsible User for Monitoring (developer or implementer):
+  * Monitored Metric (Yes/No):
+  * Recommended Responsible Party for Monitoring (Developer/Implementer):
+  * Recommended Notification of Significant Changes (Yes/No, Describe when notification of other party is recommended):
   
 * **DocLens**
   * Intended Use: Assesses coverage of known assertions, or facts, represented in human expert "ground truth" summaries. (1) Extract important facts from ground-truth summaries, either manually or using the LLM-as-a-judge approach (2) extract important facts from AI-generated summaries, either manually or using the LLM-as-a-judge approach (3) calculate accuracy, sensitivity, specificity, PPV, NPV of AI-extracted facts as compared to ground-truth facts.
   * Rationale: Recommend use of LLM-as-judge ways of generating claims from reference summaries and comparing those claims against the LLM-generated summary. One such implementation is DocLens, which captures completeness (i.e., claim recall -- requires reference), conciseness (i.e., claim precision -- requires reference), and attribution accuracy (reference-free). Other implementations include SummaQA.
   * Reference: [DocLens: Multi-aspect Fine-grained Medical Text Evaluation](https://aclanthology.org/2024.acl-long.39/)
   * Open-source tooling:
-  * Monitoring Guidance (approach and frequency):
-  * Responsible User for Monitoring (developer or implementer):
+  * Monitored Metric (Yes/No):
+  * Recommended Responsible Party for Monitoring (Developer/Implementer):
+  * Recommended Notification of Significant Changes (Yes/No, Describe when notification of other party is recommended):
 
  * **ROUGE (Recall-Oriented Understudy for Gisting Evaluation)**
    * Intended Use: N-gram or Longest Common Subsequence overlap can be measured when reference summary is available.
@@ -105,20 +107,27 @@
    * Rationale: given collection of PDQI-9 information from above, via Usefulness principle, stratify to assess similarities/differences across different patient groups.
    * Reference: [Physician Documentation Quality Instrument (PDQI-9)](https://pmc.ncbi.nlm.nih.gov/articles/instance/3633322/bin/ACI-03-0164-s001.pdf)
    * Open-source tooling:
-   * Monitoring Guidance (approach and frequency):
-   * Responsible User for Monitoring (developer or implementer):
+   * Monitored Metric (Yes/No):
+   * Recommended Responsible Party for Monitoring (Developer/Implementer):
+   * Recommended Notification of Significant Changes (Yes/No, Describe when notification of other party is recommended):
   
   * **Counterfactual DocLens**
     * Intended Use: recommend developer change out the actual source text. Recommend implementer  evaluate DocLens stratified by actual patient category.
     * Rationale: given collection of DocLens information from above, via Usefulness principle, stratify to assess similarities/differences across different patient groups.
     * Reference: [DocLens: Multi-aspect Fine-grained Medical Text Evaluation](https://aclanthology.org/2024.acl-long.39/)
     * Open-source tooling:
+    * Monitored Metric (Yes/No):
+    * Recommended Responsible Party for Monitoring (Developer/Implementer):
+    * Recommended Notification of Significant Changes (Yes/No, Describe when notification of other party is recommended):
 
  * **Counterfactual Sentiment Parity​**
    * Intended Use: Measure the sentiment consistency across counterfactually generated pairs of output. Use a pre-trained sentiment classifier Sm : Y −→ [0, 1]. Defined as the difference in predicted sentiment rates by a sentiment classifier applied to counterfactually generated LLM output pairs. See citation for full equation. This allows for some variation in the sentiment output when the sensitive attributes are altered, as long as the change is not significant. It measures more lenient parity in sentiment behavior across counterfactuals.
    * Rationale: include for developer and implementer. For implementer, compare sentiment analysis for subpopulations. Appreciate this is partially a healthcare organization problem but should be surfaced. We recommend "Weak" Counterfactual Sentiment Parity but "Strit" Counterfactual Sentiment Parity is optional. 
    * Reference: []()
    * Open-source tooling:
+   * Monitored Metric (Yes/No):
+   * Recommended Responsible Party for Monitoring (Developer/Implementer):
+   * Recommended Notification of Significant Changes (Yes/No, Describe when notification of other party is recommended):
 
 ### Safety and Reliability
 
@@ -131,12 +140,18 @@
    * Rationale: For developer only because the metric requires multiple generated summaries (m = 25)
    * Reference: [REALTOXICITYPROMPTS: Evaluating Neural Toxic Degeneration in Language Models](https://aclanthology.org/2020.findings-emnlp.301.pdf)
    * Open-source tooling: [here](https://github.com/cvs-health/langfair/tree/main/examples/evaluations/text_generation)
+   * Monitored Metric (Yes/No):
+   * Recommended Responsible Party for Monitoring (Developer/Implementer):
+   * Recommended Notification of Significant Changes (Yes/No, Describe when notification of other party is recommended):
   
   * **Reliability of DocLens​**
     * Intended Use: If nondeterministic algorithm, assess accuracy measures (from the T&A accuracy section) over multiple evaluations for the same prompt contemporaneously. Regardless, assess accuracy over time on same metrics.
     * Rationale: For developer only. Use DocLens with multiple generations to assess the 3 metrics of (1) completeness (2) conciseness and (3) attribution. Recommend m = 25.
     * Reference: []()
     * Open-source tooling:
+    * Monitored Metric (Yes/No):
+    * Recommended Responsible Party for Monitoring (Developer/Implementer):
+    * Recommended Notification of Significant Changes (Yes/No, Describe when notification of other party is recommended):
 
  * **Toxic Fraction​**
    * Intended Use: The proportion of outputs from a model that are considered toxic, indicating the prevalence of toxic behavior across all generated output. Toxic Fraction is defined as the fraction of generations that are classified as toxic. This metric effectively estimates the likelihood that responses generated by M on prompts from PX contain toxic text . Note that while the standard choice of m for this metric is m = 1, a larger value of m may be preferred in practice if sampling a large N is infeasible.
@@ -180,12 +195,18 @@ and plan". Overall evaluation could also capture lack of follow up information, 
   * Rationale: Implementer only. 
   * Reference: []()
   * Open-source tooling:
+  * Monitored Metric (Yes/No):
+  * Recommended Responsible Party for Monitoring (Developer/Implementer):
+  * Recommended Notification of Significant Changes (Yes/No, Describe when notification of other party is recommended):
 
 * **Availability of AI System Facts​**
   * Intended Use: Include information from CHAI Applied Model Card. Binary (yes/no) response. 
   * Rationale: There are more comprehensive evaluations but for pragmatic reasons we recommend the same evaluation metric for predictive and generative use cases.
   * Reference: [CHAI Applied Model Card](https://chai.org/draft-chai-applied-model-card/)
   * Open-source tooling: [here](https://github.com/coalition-for-health-ai/mc-schema)
+  * Monitored Metric (Yes/No):
+  * Recommended Responsible Party for Monitoring (Developer/Implementer):
+  * Recommended Notification of Significant Changes (Yes/No, Describe when notification of other party is recommended):
  
 * **Transparent Reporting of a Multivariable Model for Individual Prognosis or Diagnosis-Large Language Model (TRIPOD-LLM)**
   * Intended Use: The Transparent Reporting of a Multivariable Model for Individual Prognosis or Diagnosis-Large Language Model (TRIPOD-LLM) guideline may serve as a way to transparently communicate GenAI evaluation methods and results. Multistep checklist asessesing underlying data, training process, evaluation 

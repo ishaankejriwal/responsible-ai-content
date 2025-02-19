@@ -30,6 +30,11 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     predicting outcome in patients with severe sepsis and evidence of
     hypoperfusion at the time of emergency department
     presentation <https://pmc.ncbi.nlm.nih.gov/articles/PMC2703722/>`__
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Risk Ratio**
 
@@ -39,6 +44,11 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
   - Rationale:
   - Reference: `The Relative Merits of Risk Ratios and Odds
     Ratios <https://jamanetwork.com/journals/jamapediatrics/fullarticle/381459>`__
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Area under the curve (AUC)—receiver operating characteristic (ROC)
   (AUC-ROC)**
@@ -58,6 +68,11 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     false negatives, carry higher consequences.
   - Reference: `Classification: ROC and
     AUC <https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc>`__
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Area under the curve (AUC)—precision recall curve (PRC) (AUC-PRC)**
 
@@ -66,6 +81,11 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
   - Rationale:
   - Reference: `The relationship between Precision-Recall and ROC
     curves <https://dl.acm.org/doi/abs/10.1145/1143844.1143874>`__
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Precision (or Positive Predictive Value, PPV)**
 
@@ -84,6 +104,11 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     minimize false positives (cost = stress, unnecessary medical
     procedures)
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Recall (or Sensitivity)**
 
@@ -97,6 +122,11 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     appropriate for imbalanced datasets with rare positive cases, mainly
     for binary classification. Evaluated often alongside precision.
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Specificity**
 
@@ -104,6 +134,11 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     on the individual truly being negative
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **F1 score**
 
@@ -125,6 +160,11 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     equal weight to precision and recall, F2 or F0.5 can be used if
     putting more weight on recall or precision, respectively.
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Root Mean Squared Error (RMSE)**
 
@@ -137,6 +177,11 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
   - Reference: `Root-mean-square error (RMSE) or mean absolute error
     (MAE): when to use them or
     not <https://gmd.copernicus.org/articles/15/5481/2022/gmd-15-5481-2022-discussion.html>`__
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Coefficient of Determination (R-squared)**
 
@@ -146,12 +191,22 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
   - Reference: `The Coefficient of Determination: Understanding r
     squared and R
     squared <https://pubs.nctm.org/view/journals/mt/93/3/article-p230.xml>`__
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Ground Theory Analysis**
 
   - Intended Use:
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 Fairness, Equity, and Bias Management
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

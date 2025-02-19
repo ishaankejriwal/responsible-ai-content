@@ -208,11 +208,10 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
   - Recommended Notification of Significant Changes (Yes/No, Describe
     when notification of other party is recommended):
 
-Fairness, Equity, and Bias Management
+Fairness and Bias Management
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*(additional detail for the Responsible AI Principle of Fairness,
-Equity, and Bias Management can be found in the CHAI RAIG)*
+*(additional detail for the Responsible AI Principle of Fairness and Bias Management can be found in the CHAI RAIG)*
 
 **Method/Metric:**
 
@@ -224,6 +223,11 @@ Equity, and Bias Management can be found in the CHAI RAIG)*
   - Reference: `Assessing socioeconomic bias in machine learning
     algorithms in health care: a case study of the HOUSES
     index <https://pubmed.ncbi.nlm.nih.gov/35396996/>`__
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Differential Missingness**
 
@@ -233,6 +237,11 @@ Equity, and Bias Management can be found in the CHAI RAIG)*
   - Rationale: Target label of interest might be collected differently
     as function of vulnerable subgroups
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Equality of Opportunity Difference (EOD)**
 
@@ -245,6 +254,11 @@ Equity, and Bias Management can be found in the CHAI RAIG)*
     individual features.
   - Reference: `Equality of Opportunity in Supervised
     Learning <https://arxiv.org/abs/1610.02413>`__
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Confusion Matrix**
 
@@ -254,6 +268,11 @@ Equity, and Bias Management can be found in the CHAI RAIG)*
   - Rationale:
   - Reference: `Confusion
     Matrix <https://www.sciencedirect.com/topics/engineering/confusion-matrix>`__
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Potential Differential Performance Across Socioeconomic Statuses
   (SES)**
@@ -261,6 +280,11 @@ Equity, and Bias Management can be found in the CHAI RAIG)*
   - Intended Use:
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Use of interviews or qualitative approach to understand how biases
   could be introduced into the workflow**
@@ -268,6 +292,11 @@ Equity, and Bias Management can be found in the CHAI RAIG)*
   - Intended Use:
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Equalized Odds**
 
@@ -277,6 +306,11 @@ Equity, and Bias Management can be found in the CHAI RAIG)*
     similar True Positive Rates and False Positive Rates across all
     demographic groups
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 Safety and Reliability
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -294,6 +328,11 @@ Reliability can be found in the CHAI RAIG)*
     FP = False Positive; FN = False Negative.
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Risk Framework**
 
@@ -304,6 +343,11 @@ Reliability can be found in the CHAI RAIG)*
     Technology (NIST) Artificial Intelligence Risk Management Framework
     (AI RMF 1.0), ISO/IEC 23894:2024, ISO/IEC 42001:2023, CHAI
     Responsible AI Guide
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Task Analysis**
 
@@ -312,6 +356,11 @@ Reliability can be found in the CHAI RAIG)*
     failure points.
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Non-Inferiority Assessment**
 
@@ -320,6 +369,11 @@ Reliability can be found in the CHAI RAIG)*
     adequacy.
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Likelihood of Failure at Identified Failure Points**
 
@@ -327,6 +381,11 @@ Reliability can be found in the CHAI RAIG)*
     pre-implementation.
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Number of Successful Predictions**
 
@@ -334,6 +393,11 @@ Reliability can be found in the CHAI RAIG)*
     correct predictions over total cases).
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Percentage of Errors**
 
@@ -341,6 +405,11 @@ Reliability can be found in the CHAI RAIG)*
     cases.
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 Transparency, Intelligibility, and Accountability
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -358,6 +427,11 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
     region of the data being included
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Locally Interpretable Model-Agnostic Explanations (LIME)**
 
@@ -369,6 +443,11 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
   - Rationale:
   - Reference: `"Why Should I Trust You?": Explaining the Predictions of
     Any Classifier <https://arxiv.org/abs/1602.04938>`__
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Shapley Additive Explanation (SHAP)**
 
@@ -380,6 +459,11 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
   - Rationale:
   - Reference: `A unified approach to interpreting model
     predictions <https://dl.acm.org/doi/10.5555/3295222.3295230>`__
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Prototypical Explanations**
 
@@ -389,6 +473,11 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
     which can be a limitation of the approach
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Availability of AI System Facts**
 
@@ -399,6 +488,11 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
     predictive and generative use cases.
   - Reference: `CHAI Applied Model
     Card <https://chai.org/draft-chai-applied-model-card/>`__
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 Security and Privacy
 ~~~~~~~~~~~~~~~~~~~~
@@ -414,6 +508,11 @@ Privacy can be found in the CHAI RAIG)*
     in the planning phase to develop a data governance strategy.
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Leverage industry security guidelines**
 
@@ -421,6 +520,11 @@ Privacy can be found in the CHAI RAIG)*
     and refine them with nuanced expert judgment.
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Data Protection Impact Assessments (DPIA)**
 
@@ -429,6 +533,11 @@ Privacy can be found in the CHAI RAIG)*
   - Rationale:
   - Reference: `Data Protection Impact Assessments
     (DPIA) <https://gdpr.eu/data-protection-impact-assessment-template/>`__
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Threat Modeling**
 
@@ -436,30 +545,55 @@ Privacy can be found in the CHAI RAIG)*
     including attacker incentives and impact evaluations.
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Evaluation of the likelihood and impact of various attack vectors**
 
   - Intended Use:
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Data Provenance Tracking**
 
   - Intended Use: ensure data integrity.
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Numeric results from risk assessments**
 
   - Intended Use:
   - Rationale:
   - Reference: e.g., likelihood and severity of attack scenarios
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Outcomes of privacy preservation evaluations**
 
   - Intended Use:
   - Rationale:
   - Reference: e.g., degree of compliance from DPIA
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 Post-Deployment
 ---------------
@@ -483,6 +617,11 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
   - Rationale:
   - Reference: `SUS - A quick and dirty usability
     scale <https://digital.ahrq.gov/sites/default/files/docs/survey/systemusabilityscale%2528sus%2529_comp%255B1%255D.pdf>`__
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Potential Differential Performance Across Socioeconomic Statuses
   (SES)**
@@ -496,6 +635,11 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     system treats different socioeconomic groups
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Equalized Odds**
 
@@ -505,6 +649,11 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     similar True Positive Rates and False Positive Rates across all
     demographic groups
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Usability Testing and Heuristic Evaluation**
 
@@ -514,18 +663,27 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     heuristic evaluation to evaluate the AI system's interface.
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **User Satisfaction Survey**
 
   - Intended Use:
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
-Fairness, Equity, and Bias Management
+Fairness and Bias Management
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*(additional detail for the Responsible AI Principle of Fairness,
-Equity, and Bias Management can be found in the CHAI RAIG)*
+*(additional detail for the Responsible AI Principle of Fairness and Bias Management can be found in the CHAI RAIG)*
 
 **Method/Metric:**
 
@@ -537,6 +695,11 @@ Equity, and Bias Management can be found in the CHAI RAIG)*
   - Reference: `Assessing socioeconomic bias in machine learning
     algorithms in health care: a case study of the HOUSES
     index <https://pubmed.ncbi.nlm.nih.gov/35396996/>`__
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Equality of Opportunity Difference (EOD)**
 
@@ -549,6 +712,11 @@ Equity, and Bias Management can be found in the CHAI RAIG)*
     individual features.
   - Reference: `Equality of Opportunity in Supervised
     Learning <https://arxiv.org/abs/1610.02413>`__
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **balanced error rate (BER)**
 
@@ -557,6 +725,11 @@ Equity, and Bias Management can be found in the CHAI RAIG)*
     Negative; FP = False Positive; FN = False Negative.
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Comparative Biases**
 
@@ -564,6 +737,11 @@ Equity, and Bias Management can be found in the CHAI RAIG)*
     specific population, and the data used
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Implement a process for identifying and recognizing model drift**
 
@@ -571,6 +749,11 @@ Equity, and Bias Management can be found in the CHAI RAIG)*
     monitored and mitigated: concept drift, data drift, label drift.
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 Safety and Reliability
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -588,6 +771,11 @@ Reliability can be found in the CHAI RAIG)*
   - Rationale:
   - Reference: `False Alarm
     Rate <https://www.sciencedirect.com/topics/engineering/false-alarm-rate#:~:text=False%20alarm%20rate%20refers%20to,phenomena%20of%20interest%20is%20absent>`__
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **False negative rate**
 
@@ -597,6 +785,11 @@ Reliability can be found in the CHAI RAIG)*
   - Rationale:
   - Reference: `False Negative
     Rate <https://www.sciencedirect.com/topics/engineering/false-negative>`__
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 Transparency, Intelligibility, and Accountability
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -617,6 +810,11 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
   - Rationale:
   - Reference: `Random
     Forest <https://meridian.allenpress.com/jim/article/47/1/31/131479/Random-Forest>`__
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 Security and Privacy
 ~~~~~~~~~~~~~~~~~~~~
@@ -632,6 +830,11 @@ Privacy can be found in the CHAI RAIG)*
     new threats and emerging vulnerabilities.
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Limiting Access to AI Models**
 
@@ -639,6 +842,11 @@ Privacy can be found in the CHAI RAIG)*
     users have access to sensitive parts of the model and its output.
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Intercepting AI Model Outputs**
 
@@ -646,6 +854,11 @@ Privacy can be found in the CHAI RAIG)*
     adversarial data extraction.
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Input Filtering**
 
@@ -653,6 +866,11 @@ Privacy can be found in the CHAI RAIG)*
     acknowledging its potential weaknesses.
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
 
 - **Authenticated Inputs or Inputs with Provenance**
 
@@ -660,3 +878,8 @@ Privacy can be found in the CHAI RAIG)*
     particularly in sensitive applications like imaging.
   - Rationale:
   - Reference:
+  - Monitored Metric (Yes/No):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):

@@ -29,7 +29,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
   - Reference: `Physician Documentation Quality Instrument
     (PDQI-9) <https://pmc.ncbi.nlm.nih.gov/articles/instance/3633322/bin/ACI-03-0164-s001.pdf>`__
   - Open-source tooling:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -54,7 +54,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
   - Reference: `DocLens: Multi-aspect Fine-grained Medical Text
     Evaluation <https://aclanthology.org/2024.acl-long.39/>`__
   - Open-source tooling:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -224,7 +224,7 @@ Fairness and Bias Management
   - Reference: `Physician Documentation Quality Instrument
     (PDQI-9) <https://pmc.ncbi.nlm.nih.gov/articles/instance/3633322/bin/ACI-03-0164-s001.pdf>`__
   - Open-source tooling:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -241,7 +241,7 @@ Fairness and Bias Management
   - Reference: `DocLens: Multi-aspect Fine-grained Medical Text
     Evaluation <https://aclanthology.org/2024.acl-long.39/>`__
   - Open-source tooling:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -265,7 +265,7 @@ Fairness and Bias Management
     Counterfactual Sentiment Parity is optional.
   - Reference:
   - Open-source tooling:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -293,7 +293,7 @@ Reliability can be found in the CHAI RAIG)*
     Models <https://aclanthology.org/2020.findings-emnlp.301.pdf>`__
   - Open-source tooling:
     `here <https://github.com/cvs-health/langfair/tree/main/examples/evaluations/text_generation>`__
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -310,7 +310,7 @@ Reliability can be found in the CHAI RAIG)*
     attribution. Recommend m = 25.
   - Reference:
   - Open-source tooling:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -404,7 +404,7 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
   - Rationale: Implementer only.
   - Reference:
   - Open-source tooling:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -421,7 +421,7 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
     Card <https://chai.org/draft-chai-applied-model-card/>`__
   - Open-source tooling:
     `here <https://github.com/coalition-for-health-ai/mc-schema>`__
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe

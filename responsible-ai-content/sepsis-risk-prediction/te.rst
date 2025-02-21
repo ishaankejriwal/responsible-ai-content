@@ -30,7 +30,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     predicting outcome in patients with severe sepsis and evidence of
     hypoperfusion at the time of emergency department
     presentation <https://pmc.ncbi.nlm.nih.gov/articles/PMC2703722/>`__
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -44,7 +44,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
   - Rationale:
   - Reference: `The Relative Merits of Risk Ratios and Odds
     Ratios <https://jamanetwork.com/journals/jamapediatrics/fullarticle/381459>`__
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -68,7 +68,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     false negatives, carry higher consequences.
   - Reference: `Classification: ROC and
     AUC <https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc>`__
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -81,7 +81,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
   - Rationale:
   - Reference: `The relationship between Precision-Recall and ROC
     curves <https://dl.acm.org/doi/abs/10.1145/1143844.1143874>`__
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -104,7 +104,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     minimize false positives (cost = stress, unnecessary medical
     procedures)
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -122,7 +122,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     appropriate for imbalanced datasets with rare positive cases, mainly
     for binary classification. Evaluated often alongside precision.
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -134,7 +134,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     on the individual truly being negative
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -160,7 +160,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     equal weight to precision and recall, F2 or F0.5 can be used if
     putting more weight on recall or precision, respectively.
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -177,7 +177,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
   - Reference: `Root-mean-square error (RMSE) or mean absolute error
     (MAE): when to use them or
     not <https://gmd.copernicus.org/articles/15/5481/2022/gmd-15-5481-2022-discussion.html>`__
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -191,7 +191,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
   - Reference: `The Coefficient of Determination: Understanding r
     squared and R
     squared <https://pubs.nctm.org/view/journals/mt/93/3/article-p230.xml>`__
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -202,7 +202,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
   - Intended Use:
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -223,7 +223,7 @@ Fairness and Bias Management
   - Reference: `Assessing socioeconomic bias in machine learning
     algorithms in health care: a case study of the HOUSES
     index <https://pubmed.ncbi.nlm.nih.gov/35396996/>`__
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -237,7 +237,7 @@ Fairness and Bias Management
   - Rationale: Target label of interest might be collected differently
     as function of vulnerable subgroups
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -254,7 +254,7 @@ Fairness and Bias Management
     individual features.
   - Reference: `Equality of Opportunity in Supervised
     Learning <https://arxiv.org/abs/1610.02413>`__
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -268,7 +268,7 @@ Fairness and Bias Management
   - Rationale:
   - Reference: `Confusion
     Matrix <https://www.sciencedirect.com/topics/engineering/confusion-matrix>`__
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -280,7 +280,7 @@ Fairness and Bias Management
   - Intended Use:
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -292,7 +292,7 @@ Fairness and Bias Management
   - Intended Use:
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -306,7 +306,7 @@ Fairness and Bias Management
     similar True Positive Rates and False Positive Rates across all
     demographic groups
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -328,7 +328,7 @@ Reliability can be found in the CHAI RAIG)*
     FP = False Positive; FN = False Negative.
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -343,7 +343,7 @@ Reliability can be found in the CHAI RAIG)*
     Technology (NIST) Artificial Intelligence Risk Management Framework
     (AI RMF 1.0), ISO/IEC 23894:2024, ISO/IEC 42001:2023, CHAI
     Responsible AI Guide
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -356,7 +356,7 @@ Reliability can be found in the CHAI RAIG)*
     failure points.
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -369,7 +369,7 @@ Reliability can be found in the CHAI RAIG)*
     adequacy.
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -381,7 +381,7 @@ Reliability can be found in the CHAI RAIG)*
     pre-implementation.
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -393,7 +393,7 @@ Reliability can be found in the CHAI RAIG)*
     correct predictions over total cases).
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -405,7 +405,7 @@ Reliability can be found in the CHAI RAIG)*
     cases.
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -427,7 +427,7 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
     region of the data being included
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -443,7 +443,7 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
   - Rationale:
   - Reference: `"Why Should I Trust You?": Explaining the Predictions of
     Any Classifier <https://arxiv.org/abs/1602.04938>`__
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -459,7 +459,7 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
   - Rationale:
   - Reference: `A unified approach to interpreting model
     predictions <https://dl.acm.org/doi/10.5555/3295222.3295230>`__
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -473,7 +473,7 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
     which can be a limitation of the approach
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -488,7 +488,7 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
     predictive and generative use cases.
   - Reference: `CHAI Applied Model
     Card <https://chai.org/draft-chai-applied-model-card/>`__
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -508,7 +508,7 @@ Privacy can be found in the CHAI RAIG)*
     in the planning phase to develop a data governance strategy.
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -520,7 +520,7 @@ Privacy can be found in the CHAI RAIG)*
     and refine them with nuanced expert judgment.
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -533,7 +533,7 @@ Privacy can be found in the CHAI RAIG)*
   - Rationale:
   - Reference: `Data Protection Impact Assessments
     (DPIA) <https://gdpr.eu/data-protection-impact-assessment-template/>`__
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -545,7 +545,7 @@ Privacy can be found in the CHAI RAIG)*
     including attacker incentives and impact evaluations.
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -556,7 +556,7 @@ Privacy can be found in the CHAI RAIG)*
   - Intended Use:
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -567,7 +567,7 @@ Privacy can be found in the CHAI RAIG)*
   - Intended Use: ensure data integrity.
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -578,7 +578,7 @@ Privacy can be found in the CHAI RAIG)*
   - Intended Use:
   - Rationale:
   - Reference: e.g., likelihood and severity of attack scenarios
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -589,7 +589,7 @@ Privacy can be found in the CHAI RAIG)*
   - Intended Use:
   - Rationale:
   - Reference: e.g., degree of compliance from DPIA
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -617,7 +617,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
   - Rationale:
   - Reference: `SUS - A quick and dirty usability
     scale <https://digital.ahrq.gov/sites/default/files/docs/survey/systemusabilityscale%2528sus%2529_comp%255B1%255D.pdf>`__
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -635,7 +635,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     system treats different socioeconomic groups
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -649,7 +649,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     similar True Positive Rates and False Positive Rates across all
     demographic groups
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -663,7 +663,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     heuristic evaluation to evaluate the AI system's interface.
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -674,7 +674,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
   - Intended Use:
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -695,7 +695,7 @@ Fairness and Bias Management
   - Reference: `Assessing socioeconomic bias in machine learning
     algorithms in health care: a case study of the HOUSES
     index <https://pubmed.ncbi.nlm.nih.gov/35396996/>`__
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -712,7 +712,7 @@ Fairness and Bias Management
     individual features.
   - Reference: `Equality of Opportunity in Supervised
     Learning <https://arxiv.org/abs/1610.02413>`__
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -725,7 +725,7 @@ Fairness and Bias Management
     Negative; FP = False Positive; FN = False Negative.
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -737,7 +737,7 @@ Fairness and Bias Management
     specific population, and the data used
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -749,7 +749,7 @@ Fairness and Bias Management
     monitored and mitigated: concept drift, data drift, label drift.
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -771,7 +771,7 @@ Reliability can be found in the CHAI RAIG)*
   - Rationale:
   - Reference: `False Alarm
     Rate <https://www.sciencedirect.com/topics/engineering/false-alarm-rate#:~:text=False%20alarm%20rate%20refers%20to,phenomena%20of%20interest%20is%20absent>`__
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -785,7 +785,7 @@ Reliability can be found in the CHAI RAIG)*
   - Rationale:
   - Reference: `False Negative
     Rate <https://www.sciencedirect.com/topics/engineering/false-negative>`__
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -810,7 +810,7 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
   - Rationale:
   - Reference: `Random
     Forest <https://meridian.allenpress.com/jim/article/47/1/31/131479/Random-Forest>`__
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -830,7 +830,7 @@ Privacy can be found in the CHAI RAIG)*
     new threats and emerging vulnerabilities.
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -842,7 +842,7 @@ Privacy can be found in the CHAI RAIG)*
     users have access to sensitive parts of the model and its output.
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -854,7 +854,7 @@ Privacy can be found in the CHAI RAIG)*
     adversarial data extraction.
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -866,7 +866,7 @@ Privacy can be found in the CHAI RAIG)*
     acknowledging its potential weaknesses.
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -878,7 +878,7 @@ Privacy can be found in the CHAI RAIG)*
     particularly in sensitive applications like imaging.
   - Rationale:
   - Reference:
-  - Monitored Metric (Yes/No):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe

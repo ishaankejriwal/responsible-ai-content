@@ -1,7 +1,7 @@
 name: CHAI Feedback Form - Responsible AI Content
 description: Please use this form to suggest changes or improvements to the Responsible AI Content in this repository.
 title: "[Feedback]: "
-labels: ["feedback"]
+labels: ["sepsis, patient discharge summarization, concept change, content change, bug fix, major change, minor change, feedback"]
 assignees: []
 
 body:

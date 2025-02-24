@@ -61,3 +61,20 @@ body:
       label: "Additional comments or concerns?"
       description: "Any other feedback or questions?"
       placeholder: "Is there a plan to add more use cases in the future?"
+
+- type: dropdown
+    id: label-selection
+    attributes:
+      label: "Select a label for your feedback"
+      description: "This helps categorize your feedback appropriately."
+      multiple: true
+      options:
+        - "sepsis"
+        - "patient discharge summarization"
+        - "bug fix"
+        - "concept change"
+        - "content change"
+        - "feedback"
+        - "duplicate"
+    validations:
+      required: true

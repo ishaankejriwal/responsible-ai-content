@@ -19,7 +19,7 @@ Develop a set of standard operating procedures for CHAI Program Management and C
 ## Table of Contents
 - [Feedback Process](#feedback-process)
 - [Editing the GitHub Repository](#editing-the-github-repository)
-- [Good Practices](#good-practices)
+- [Version Control](#version-control)
 
 ## Feedback Process
 
@@ -34,10 +34,12 @@ Feedback Form is available [here](https://github.com/coalition-for-health-ai/res
 
 - Diversity of Committers: CHAI will ensure multiple organizations are committing changes to the CHAI GitHub, not just CHAI internal team.
 
-## Good Practices
+## Version Control
+-	V0.1: Work Group members edit offline and in private repository during v0.1 of use case content development
+-	V0.2: CHAI Program Management then pushes content to public repository for v0.2 of use case content; CHAI Board, CHAI Members, and Public can review content during ~2-4-week Public Feedback Period
+-	V1.0: resolve priority feedback and reflect in work product (v1.0)
 
-- Ensure CHAI communicates major releases and minor releases of the responsible-ai-content repository with the CHAI community and public.
-- Develop criteria for when/how CHAI will classify “major” and “minor” releases.
-- Use GitBook to provide structure, layout, etc., to improve content presentation for the senior leadership team and non-technical stakeholders.
-- Ensure non-technical reviewers can easily leave Issues in the repository.
-- Avoid linking open-source tools directly in the GitHub repository due to security risks. CHAI will only list the names of repositories that include open-source content.
+For Future versions (post-V1.0)
+-	Major revision: e.g., V2.0: new UI or format, several new features, conceptual changes, content changes, etc.
+-	Minor revision: e.g., V1.1: minor new UI or format, few new features, collection of bug fixes
+

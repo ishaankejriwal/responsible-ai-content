@@ -27,7 +27,7 @@ Feedback Form is available [here](https://github.com/coalition-for-health-ai/res
 1. Reviewer submits an Issue via the Feedback Form.
 2. CHAI Program Management team reviews, determines if a change needs to be made to the repository, and defines what the content change is.
 3. CHAI assigns who will be the Contributor to submit a Pull Request (PR) with the language as defined in step 3.
-4. CHAI Program Management approves the PR; changes are automatically reflected in the latest version of the repository.
+4. CHAI Program Management + non-CHAI organizational Work Group Committer(s) approve the PR; changes are automatically reflected in the latest version of the repository.
 
 ## Editing the Repository
 

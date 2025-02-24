@@ -11,8 +11,6 @@ This repository contains living documents that are continuously evolving. The co
 
 # CHAI GitHub Standard Operating Procedures
 
-**Last updated: February 10, 2025**
-
 ## Purpose
 Develop a set of standard operating procedures for CHAI Program Management and CHAI community alignment and adherence.
 
@@ -20,6 +18,7 @@ Develop a set of standard operating procedures for CHAI Program Management and C
 - [Feedback Process](#feedback-process)
 - [Editing the GitHub Repository](#editing-the-github-repository)
 - [Version Control](#version-control)
+- [Key Terms](#key-terms)
 
 ## Feedback Process
 
@@ -35,11 +34,17 @@ Feedback Form is available [here](https://github.com/coalition-for-health-ai/res
 - Diversity of Committers: CHAI will ensure multiple organizations are committing changes to the CHAI GitHub, not just CHAI internal team.
 
 ## Version Control
--	V0.1: Work Group members edit offline and in private repository during v0.1 of use case content development
--	V0.2: CHAI Program Management then pushes content to public repository for v0.2 of use case content; CHAI Board, CHAI Members, and Public can review content during ~2-4-week Public Feedback Period
--	V1.0: resolve priority feedback and reflect in work product (v1.0)
+-	v0.1: Work Group members edit offline and in private repository during v0.1 of use case content development
+-	v0.2: CHAI Program Management then pushes content to public repository for v0.2 of use case content; CHAI Board, CHAI Members, and Public can review content during ~2-4-week Public Feedback Period
+-	v1.0: resolve priority feedback and reflect in work product (v1.0)
 
-For Future versions (post-V1.0)
--	Major revision: e.g., V2.0: new UI or format, several new features, conceptual changes, content changes, etc.
--	Minor revision: e.g., V1.1: minor new UI or format, few new features, collection of bug fixes
+For Future versions (post-v1.0)
+-	Major revision: e.g., v2.0: new UI or format, several new features, conceptual changes, content changes, etc.
+-	Minor revision: e.g., v1.1: minor new UI or format, few new features, collection of bug fixes
+
+## Key Terms
+-	**CHAI Majority Consensus**, from International Organization for Standards (ISO): “text is approved as an International Standard (IS)… if a two-thirds majority of the P-members (participating-members)… in favor and not more than one-quarter of the total number of votes cast are negative” [linked here](https://www.iso.org/sites/ConsumersStandards/voting_iso.html)
+-	**CHAI Work Group Quorum**, summarized from IEEE and HL7: in many work groups, sets quorum as 50% + 1 (simple majority); however, quorum is up to discretion of each work group. [linked here](https://confluence.hl7.org/spaces/TSC/pages/130483151/Generic+HL7+Work+Group+DMP)
+  -	Specifically, from HL7 Governance and Operations Manual: “Unless otherwise noted, motions shall be resolved by simple majority or quorum.” [linked here](https://www.hl7.org/documentcenter/public/membership/HL7_Governance_and_Operations_Manual.pdf)
+  -	Appendix: “CHAI Work Group Quorum applies to any decisions that are made live on calls. For asynchronous decisions, all 100% of Work Group members will be informed of the request. Lack of response indicates an Abstain vote.”
 

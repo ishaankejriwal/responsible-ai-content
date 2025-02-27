@@ -494,6 +494,7 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
     when notification of other party is recommended):
 
 - **Determine who on the care team is receiving alerts (components of screening)**
+
   - Intended Use: Automated alert followed by manual screening allows for additional transparency relative to completely automated solutions.
   - Rationale: 
   - Reference: 
@@ -512,6 +513,7 @@ Privacy can be found in the CHAI RAIG)*
 **Method/Metric:**
 
 - **Locality of the assessment**
+
   - Intended Use: observe and characterize the stakeholders receiving information on patient. 
   - Rationale: human assessment of “minimum necessary” criteria. Only the care team of the patient review and receive information on sepsis alerts; the manual screen contains minimum necessary survey of patient data; and the action plan is a team huddle. All data stays in EHR system.
   - Reference:
@@ -700,6 +702,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     when notification of other party is recommended):
 
 - **Sensitivity, Specificity, PPV**
+
   - Intended Use: measure performance in external validation cohort; measure performance on different floors / inpatient service. PPV at Sensitivity = 0.9
   - Rationale: retrospective cohort study in patients before and after tool is implemented
   - Reference:
@@ -710,6 +713,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     when notification of other party is recommended):
 
 - **Pre-post implementation differences in usefulness metrics**
+
   - Intended Use: calculate pre-post rate differences in before and after cohorts:
     - Proportion of positives leading to treatment
     - % treaded for sepsis
@@ -857,6 +861,7 @@ Reliability can be found in the CHAI RAIG)*
     when notification of other party is recommended):
 
 - **Admissions and LOS differences**
+
   - Intended Use 
   - Rationale:
   - Reference: Baker, A. H. et al. Effect of a Sepsis Screening Algorithm on Care of Children with False-Positive Sepsis Alerts. The Journal of Pediatrics 231, 193-199.e1 (2021).
@@ -892,6 +897,7 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
     when notification of other party is recommended):
 
 - **Determine who on the care team is receiving alerts (components of screening)**
+
   - Intended Use: Automated alert followed by manual screening allows for additional transparency relative to completely automated solutions.
   - Rationale: 
   - Reference: 
@@ -910,6 +916,7 @@ Privacy can be found in the CHAI RAIG)*
 **Method/Metric:**
 
 - **Locality of the assessment**
+
   - Intended Use: observe and characterize the stakeholders receiving information on patient. 
   - Rationale: human assessment of “minimum necessary” criteria. Only the care team of the patient review and receive information on sepsis alerts; the manual screen contains minimum necessary survey of patient data; and the action plan is a team huddle. All data stays in EHR system.
   - Reference:

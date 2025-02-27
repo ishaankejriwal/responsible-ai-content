@@ -732,7 +732,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
   - Rationale:
   - Reference: Eisenberg, M. A. et al. Outcomes of Patients with Sepsis in a Pediatric Emergency Department after Automated Sepsis Screening. The Journal of Pediatrics 235, 239-245.e4 (2021).
   - Reference: Eisenberg, M. et al. Comparison of Manual and Automated Sepsis Screening Tools in a Pediatric Emergency Department. Pediatrics 147, e2020022590 (2021).
-  -   - Monitoring Cadence (Time Interval, Frequency, etc.):
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
@@ -851,6 +851,7 @@ Reliability can be found in the CHAI RAIG)*
     when notification of other party is recommended):
 
 - **Proportion of patients who received IV antibiotics**
+
   - Intended Use: Retrospective cohort study comparing patients of a predefined age presenting to an ED who triggered a false-positive sepsis alert during 2 different n-month time periods: a silent alert period when alerts were generated but not visible to clinicians and an active alert period when alerts were visible.
   - Rationale: we recommend including this method/metric.
   - Reference: Baker, A. H. et al. Effect of a Sepsis Screening Algorithm on Care of Children with False-Positive Sepsis Alerts. The Journal of Pediatrics 231, 193-199.e1 (2021).

@@ -21,11 +21,11 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
 - **Sequential Organ Failure Assessment (SOFA) score**
 
   - Intended Use: numerically quantifies the number and severity of
-    failed organs. The primary purpose of the SOFA score is, as far as
+    failed organs.
+  - Rationale: The primary purpose of the SOFA score is, as far as
     is possible, to objectively describe organ (dys)function rather than
     to predict outcome, so no associated equation was developed for
     mortality prediction.
-  - Rationale:
   - Reference: `The Sequential Organ Failure Assessment score for
     predicting outcome in patients with severe sepsis and evidence of
     hypoperfusion at the time of emergency department
@@ -102,7 +102,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     diagnosis). Traditional accuracy can be misleading because it would
     be biased towards majority class. Also helpful when wanting to
     minimize false positives (cost = stress, unnecessary medical
-    procedures)
+    procedures, alarm fatigue)
   - Reference: See Eisenberg, M. A. & Balamuth, F. Pediatric sepsis screening in US hospitals. Pediatr Res 91, 351–358 (2022).
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
@@ -190,6 +190,28 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
   - Reference: `The Coefficient of Determination: Understanding r
     squared and R
     squared <https://pubs.nctm.org/view/journals/mt/93/3/article-p230.xml>`__
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
+
+- **Time-to-Event**
+
+  - Intended Use: Assessment of the time between prediction and event/outcome. For example, the average number of hours between an alert and administration of antibiotics.
+  - Rationale: Measures the usefulness of the prediction; alerts are less useful after infectious workup has begun or if they are too early in the diagnostic process.
+  - Reference: `Reyna, M. A., Josef, C. S., Jeter, R., Shashikumar, S. P., Westover, M. B., Nemati, S., ... & Sharma, A. (2020). Early prediction of sepsis from clinical data: the PhysioNet/Computing in Cardiology Challenge 2019. Critical care medicine, 48(2), 210-217.`
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
+
+- **Inclusion / Exclusion Analysis**
+
+  - Intended Use: Assessment of model performance after applying conditions of use. For example, measuring performance characteristics following exclusion of patients on antibiotics, patients with invasive surgery in the last 24 hours, bone marrow transplant patients, etc.  
+  - Rationale: Vanilla classification metrics may overestimate model performance within it's conditions of use.
+  - Reference: `Wong, A., Otles, E., Donnelly, J. P., Krumm, A., McCullough, J., DeTroyer-Cooley, O., ... & Singh, K. (2021). External validation of a widely implemented proprietary sepsis prediction model in hospitalized patients. JAMA internal medicine, 181(8), 1065-107`
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
@@ -311,6 +333,17 @@ Fairness and Bias Management
   - Recommended Notification of Significant Changes (Yes/No, Describe
     when notification of other party is recommended):
 
+- **Slice Finding**
+
+  - Intended Use: Automatically identify subgroups in the data where the model is underperforming (e.g. based on demographics, comorbidities, etc.)
+  - Rationale: Pre-specified subgroups may miss underperforming slices. For example, the model may not achieve acceptable performance on cirrhosis patients.
+  - Reference: https://research.google/pubs/slice-finder-automated-data-slicing-for-model-validation/
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
+
 Safety and Reliability
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -403,6 +436,17 @@ Reliability can be found in the CHAI RAIG)*
   - Intended Use: Quantitative measure of errors over a given number of
     cases.
   - Rationale:
+  - Reference:
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
+
+- **Predetermined Change Control Plan**
+
+  - Intended Use: Identify performance metrics that will be monitored and their corresponding control limits to trigger model updates.
+  - Rationale: Model performance may deteriorate over time necessitating retraining, etc. Changes to clinical systems should be protocolized to prevent disruptions. 
   - Reference:
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
@@ -871,6 +915,29 @@ Reliability can be found in the CHAI RAIG)*
     (Developer/Implementer):
   - Recommended Notification of Significant Changes (Yes/No, Describe
     when notification of other party is recommended):
+
+  - **Model Interaction Data**
+
+  - Intended Use: Assess user engagement with the model recommendations. For example, the acknowledgement reasons on a Best Practice Advisory. 
+  - Rationale: Drifts in user response to model recommendations may signal performance deterioration.
+  - Reference: 
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
+
+- **Technical Support**
+
+  - Intended Use: Point(s) of contact for clinical end-users to escalate model issues.
+  - Rationale: Changes in the EHR may lead to critical failues in clinical decision support that are not identified via automated controls.
+  - Reference: 
+  - Monitoring Cadence (Time Interval, Frequency, etc.):
+  - Recommended Responsible Party for Monitoring
+    (Developer/Implementer):
+  - Recommended Notification of Significant Changes (Yes/No, Describe
+    when notification of other party is recommended):
+
 
 Transparency, Intelligibility, and Accountability
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

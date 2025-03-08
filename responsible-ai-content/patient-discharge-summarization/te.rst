@@ -1,5 +1,5 @@
-Testing and Evaluation (T&E) Framework for Note Summarization - Patient Discharge Summary
-=========================================================================================
+Testing and Evaluation (T&E) Framework
+======================================
 
 *(use as guidance when completing the CHAI Applied Model Card for a note
 summarization - patient discharge summary use case)*

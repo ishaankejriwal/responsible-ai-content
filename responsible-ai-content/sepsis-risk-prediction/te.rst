@@ -1,5 +1,5 @@
-Testing and Evaluation (T&E) Framework for Sepsis Risk Prediction
-=================================================================
+Testing and Evaluation (T&E) Framework
+======================================
 
 *(use as guidance when completing the CHAI Applied Model Card for a
 sepsis risk prediction use case)*

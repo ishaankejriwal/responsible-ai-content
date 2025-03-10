@@ -1,7 +1,7 @@
 # Responsible AI Content
 **Overview**
 
-This repository includes use case folders with consensus-defined Testing and Evaluation Frameworks. When completing the CHAI Applied Model Card, review use case specific Testing and Evaluation Frameworks for additional CHAI-endorsed guidance.
+This repository includes use case folders with consensus-defined Testing and Evaluation Frameworks. When completing the CHAI Applied Model Card, review use case specific Testing and Evaluation Frameworks for additional CHAI consensus-defined guidance.
 
 A Testing and Evaluation (T&E) Framework includes a consensus-defined set of methods, metrics, measures, and/or benchmarks for developers and implementers to more concretely evaluate the responsible use of health AI solutions for a given use case. Content within a T&E Framework varies based on use case and type.
 
@@ -22,21 +22,23 @@ Develop a set of standard operating procedures for CHAI Program Management and C
 
 ## Feedback Process
 
-Feedback Form is available [here](https://github.com/coalition-for-health-ai/responsible-ai-content/issues/new?template=FeedbackForm.yml).
+Feedback Forms (GitHub Issue and Microsoft Form will be available and linked here).
 
-1. Reviewer submits an Issue via the Feedback Form.
-2. CHAI Program Management team reviews, determines if a change needs to be made to the repository, and defines what the content change is.
-3. CHAI assigns who will be the Contributor to submit a Pull Request (PR) with the language as defined in step 3.
-4. CHAI Program Management + non-CHAI organizational Work Group Committer(s) approve the PR; changes are automatically reflected in the latest version of the repository.
+1.	Reviewer submits an Issue via the Feedback Form.
+2.	CHAI Program Management team and workgroup leads review, determine if a change needs to be made to the repository, and defines what the scope of that change will be.
+3.	Any issue that will result in a change will result in a Pull Request (PR). 
+4.	CHAI Program Management + non-CHAI Work Group Committer(s) will approve the PR and changes will automatically be reflected in the latest version of the repository.
 
 ## Editing the Repository
 
-- Diversity of Committers: CHAI will ensure multiple organizations are committing changes to the CHAI GitHub, not just CHAI internal team.
+- Diversity of Committers: CHAI will ensure multiple organizations are committing changes to the CHAI GitHub, not just CHAI internal team. At least two individuals, representing separate organizations, will be identified as committers for each use-case workgroup. 
 
 ## Version Control
--	v0.1: Work Group members edit offline and in private repository during v0.1 of use case content development
--	v0.2: CHAI Program Management then pushes content to public repository for v0.2 of use case content; CHAI Board, CHAI Members, and Public can review content during ~2-4-week Public Feedback Period
--	v1.0: resolve priority feedback and reflect in work product (v1.0)
+- v0.1: Work Group members edit offline and in private repository during v0.1 of use case content development
+- v0.2: CHAI Program Management will send a draft to CHAI Board and CHAI Members for early viewing 5 business days prior to pushing content to the public repository. 
+- v0.3: CHAI Program Management then pushes content to public repository for Members and Public to view and continuously contribute to/iterate on. Feedback received from release to week 4 post-release will be considered priority feedback prior to updating to v1.0.  
+- v1.0: resolve priority feedback and reflect in work product (v1.0)
+
 
 For Future versions (post-v1.0)
 -	Major revision: e.g., v2.0: new UI or format, several new features, conceptual changes, content changes, etc.

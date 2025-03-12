@@ -26,3 +26,8 @@ exclude_patterns = []
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_logo = "_static/logo.png"
+
+latex_logo = "_static/logo.png"
+latex_elements = {
+  'extraclassoptions': 'openany,oneside'
+}

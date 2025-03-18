@@ -209,7 +209,8 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
 Fairness and Bias Management
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*(additional detail for the Responsible AI Principle of Fairness and Bias Management can be found in the CHAI RAIG)*
+*(additional detail for the Responsible AI Principle of Fairness and
+Bias Management can be found in the CHAI RAIG)*
 
 **Method/Metric:**
 
@@ -504,7 +505,8 @@ Metric:
 Fairness and Bias Management
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*(additional detail for the Responsible AI Principle of Fairness and Bias Management can be found in the CHAI RAIG)*
+*(additional detail for the Responsible AI Principle of Fairness and
+Bias Management can be found in the CHAI RAIG)*
 
 Method:
 

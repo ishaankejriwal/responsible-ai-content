@@ -34,16 +34,18 @@ Audience
 This Responsible AI content is for developers and implementers of sepsis
 risk prediction AI solutions used in healthcare organizations: 
 
-- Developers: individuals involved in the software development process, including requirements gathering, design, coding, testing, and maintenance of software applications (derived from IEEE, 12207:2017) 
+- Developers: individuals involved in the software development process,
+  including requirements gathering, design, coding, testing, and
+  maintenance of software applications (derived from IEEE, 12207:2017)
 
 - Implementers: a person or organization that is responsible for the
   realization of a system or component in accordance with a specified
   design (derived from IEEE 829 and IEEE 730)
 
-- Healthcare organizations: “a health care organization is a
+- Healthcare organizations: "a health care organization is a
   purposefully designed, structured social system developed for the
   delivery of health care services by specialized workforces to defined
-  communities, populations, or markets.”
+  communities, populations, or markets."
 
 Use Case Description
 --------------------

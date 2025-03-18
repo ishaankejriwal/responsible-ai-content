@@ -94,16 +94,20 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     computed via the equation: Precision = TP / (TP + FP) where TP is
     the True positives (i.e. the examples correctly labeled as positive)
     and FP is the False positive examples (i.e. the examples incorrectly
-    labeled as positive). Retrospective cohort studies: recommended PPV at Sensitivity = 0.9
-  - Rationale: calculate metrics with respect to: ED attending diagnoses; internal criteria from ACCM guidelines; ICU admission meeting Goldstein sepsis criteria. Measure of accuracy for a positive result (proportion of
-    true positives for all positive predictions), useful when false
-    positives are costly or undesireable. Valuable in datasets with
-    strong class imbalance, where positive cases are rare (medical
-    diagnosis). Traditional accuracy can be misleading because it would
-    be biased towards majority class. Also helpful when wanting to
-    minimize false positives (cost = stress, unnecessary medical
+    labeled as positive). Retrospective cohort studies: recommended PPV
+    at Sensitivity = 0.9
+  - Rationale: calculate metrics with respect to: ED attending
+    diagnoses; internal criteria from ACCM guidelines; ICU admission
+    meeting Goldstein sepsis criteria. Measure of accuracy for a positive
+    result (proportion of true positives for all positive predictions),
+    useful when false positives are costly or undesireable. Valuable in
+    datasets with strong class imbalance, where positive cases are rare
+    (medical diagnosis). Traditional accuracy can be misleading because
+    it would be biased towards majority class. Also helpful when wanting
+    to minimize false positives (cost = stress, unnecessary medical
     procedures, alarm fatigue)
-  - Reference: See Eisenberg, M. A. & Balamuth, F. Pediatric sepsis screening in US hospitals. Pediatr Res 91, 351–358 (2022).
+  - Reference: See Eisenberg, M. A. & Balamuth, F. Pediatric sepsis
+    screening in US hospitals. Pediatr Res 91, 351-358 (2022).
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
@@ -115,13 +119,18 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
   - Intended Use: Recall is the fraction of the positive examples that
     were correctly labeled by the model as positive. It can be computed
     with the equation: Recall = TP / (TP + FN) Where TP is the number of
-    true positives and FN is the number of false negatives. Retrospective cohort studies: Recommended PPV at Sensitivity = 0.9
-  - Rationale: calculate metrics with respect to: ED attending diagnoses; internal criteria from ACCM guidelines; ICU admission meeting Goldstein sepsis criteria. Useful when it's important to capture all positive cases
-    (e.g. sepsis), even if it means tolerating some false positives.
-    (e.g. cost of false negatives is really high). This is also
-    appropriate for imbalanced datasets with rare positive cases, mainly
-    for binary classification. Evaluated often alongside precision.
-  - Reference: See Eisenberg, M. A. & Balamuth, F. Pediatric sepsis screening in US hospitals. Pediatr Res 91, 351–358 (2022).
+    true positives and FN is the number of false negatives.
+    Retrospective cohort studies: Recommended PPV at Sensitivity = 0.9
+  - Rationale: calculate metrics with respect to: ED attending
+    diagnoses; internal criteria from ACCM guidelines; ICU admission
+    meeting Goldstein sepsis criteria. Useful when it's important to
+    capture all positive cases (e.g. sepsis), even if it means
+    tolerating some false positives. (e.g. cost of false negatives is
+    really high). This is also appropriate for imbalanced datasets with
+    rare positive cases, mainly for binary classification. Evaluated
+    often alongside precision.
+  - Reference: See Eisenberg, M. A. & Balamuth, F. Pediatric sepsis
+    screening in US hospitals. Pediatr Res 91, 351--358 (2022).
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
@@ -130,9 +139,14 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
 
 - **Specificity**
 
-  - Intended Use: measure performance in external validation cohort; measure performance on different floors / inpatient services. Recommended PPV at Sensitivity = 0.9
-  - Rationale: calculate metrics with respect to: ED attending diagnoses; internal criteria from ACCM guidelines; ICU admission meeting Goldstein sepsis criteria
-  - Reference: See Eisenberg, M. A. & Balamuth, F. Pediatric sepsis screening in US hospitals. Pediatr Res 91, 351–358 (2022).
+  - Intended Use: measure performance in external validation cohort;
+    measure performance on different floors / inpatient services.
+    Recommended PPV at Sensitivity = 0.9
+  - Rationale: calculate metrics with respect to: ED attending
+    diagnoses; internal criteria from ACCM guidelines; ICU admission
+    meeting Goldstein sepsis criteria
+  - Reference: See Eisenberg, M. A. & Balamuth, F. Pediatric sepsis
+    screening in US hospitals. Pediatr Res 91, 351--358 (2022).
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
@@ -198,9 +212,16 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
 
 - **Time-to-Event**
 
-  - Intended Use: Assessment of the time between prediction and event/outcome. For example, the average number of hours between an alert and administration of antibiotics.
-  - Rationale: Measures the usefulness of the prediction; alerts are less useful after infectious workup has begun or if they are too early in the diagnostic process.
-  - Reference: `Reyna, M. A., Josef, C. S., Jeter, R., Shashikumar, S. P., Westover, M. B., Nemati, S., ... & Sharma, A. (2020). Early prediction of sepsis from clinical data: the PhysioNet/Computing in Cardiology Challenge 2019. Critical care medicine, 48(2), 210-217.`
+  - Intended Use: Assessment of the time between prediction and
+    event/outcome. For example, the average number of hours between an
+    alert and administration of antibiotics.
+  - Rationale: Measures the usefulness of the prediction; alerts are
+    less useful after infectious workup has begun or if they are too
+    early in the diagnostic process.
+  - Reference: `Reyna, M. A., Josef, C. S., Jeter, R., Shashikumar, S.
+    P., Westover, M. B., Nemati, S., ... & Sharma, A. (2020). Early
+    prediction of sepsis from clinical data: the PhysioNet/Computing in
+    Cardiology Challenge 2019. Critical care medicine, 48(2), 210-217.`
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
@@ -209,9 +230,18 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
 
 - **Inclusion / Exclusion Analysis**
 
-  - Intended Use: Assessment of model performance after applying conditions of use. For example, measuring performance characteristics following exclusion of patients on antibiotics, patients with invasive surgery in the last 24 hours, bone marrow transplant patients, etc.  
-  - Rationale: Vanilla classification metrics may overestimate model performance within it's conditions of use.
-  - Reference: `Wong, A., Otles, E., Donnelly, J. P., Krumm, A., McCullough, J., DeTroyer-Cooley, O., ... & Singh, K. (2021). External validation of a widely implemented proprietary sepsis prediction model in hospitalized patients. JAMA internal medicine, 181(8), 1065-107`
+  - Intended Use: Assessment of model performance after applying
+    conditions of use. For example, measuring performance
+    characteristics following exclusion of patients on antibiotics,
+    patients with invasive surgery in the last 24 hours, bone marrow
+    transplant patients, etc.  
+  - Rationale: Vanilla classification metrics may overestimate model
+    performance within it's conditions of use.
+  - Reference: `Wong, A., Otles, E., Donnelly, J. P., Krumm, A.,
+    McCullough, J., DeTroyer-Cooley, O., ... & Singh, K. (2021).
+    External validation of a widely implemented proprietary sepsis
+    prediction model in hospitalized patients. JAMA internal medicine,
+    181(8), 1065-107`
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
@@ -335,8 +365,12 @@ Fairness and Bias Management
 
 - **Slice Finding**
 
-  - Intended Use: Automatically identify subgroups in the data where the model is underperforming (e.g. based on demographics, comorbidities, etc.)
-  - Rationale: Pre-specified subgroups may miss underperforming slices. For example, the model may not achieve acceptable performance on cirrhosis patients.
+  - Intended Use: Automatically identify subgroups in the data where the
+    model is underperforming (e.g. based on demographics, comorbidities,
+    etc.)
+  - Rationale: Pre-specified subgroups may miss underperforming slices.
+    For example, the model may not achieve acceptable performance on
+    cirrhosis patients.
   - Reference: https://research.google/pubs/slice-finder-automated-data-slicing-for-model-validation/
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
@@ -445,8 +479,11 @@ Reliability can be found in the CHAI RAIG)*
 
 - **Predetermined Change Control Plan**
 
-  - Intended Use: Identify performance metrics that will be monitored and their corresponding control limits to trigger model updates.
-  - Rationale: Model performance may deteriorate over time necessitating retraining, etc. Changes to clinical systems should be protocolized to prevent disruptions. 
+  - Intended Use: Identify performance metrics that will be monitored
+    and their corresponding control limits to trigger model updates.
+  - Rationale: Model performance may deteriorate over time necessitating
+    retraining, etc. Changes to clinical systems should be protocolized
+    to prevent disruptions. 
   - Reference:
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
@@ -537,9 +574,12 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
   - Recommended Notification of Significant Changes (Yes/No, Describe
     when notification of other party is recommended):
 
-- **Determine who on the care team is receiving alerts (components of screening)**
+- **Determine who on the care team is receiving alerts (components of
+  screening)**
 
-  - Intended Use: Automated alert followed by manual screening allows for additional transparency relative to completely automated solutions.
+  - Intended Use: Automated alert followed by manual screening allows
+    for additional transparency relative to completely automated
+    solutions.
   - Rationale: 
   - Reference: 
   - Monitoring Cadence (Time Interval, Frequency, etc.):
@@ -558,8 +598,13 @@ Privacy can be found in the CHAI RAIG)*
 
 - **Locality of the assessment**
 
-  - Intended Use: observe and characterize the stakeholders receiving information on patient. 
-  - Rationale: human assessment of “minimum necessary” criteria. Only the care team of the patient review and receive information on sepsis alerts; the manual screen contains minimum necessary survey of patient data; and the action plan is a team huddle. All data stays in EHR system.
+  - Intended Use: observe and characterize the stakeholders receiving
+    information on patient. 
+  - Rationale: human assessment of "minimum necessary" criteria. Only
+    the care team of the patient review and receive information on
+    sepsis alerts; the manual screen contains minimum necessary survey
+    of patient data; and the action plan is a team huddle. All data
+    stays in EHR system.
   - Reference:
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
@@ -747,8 +792,11 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
 
 - **Sensitivity, Specificity, PPV**
 
-  - Intended Use: measure performance in external validation cohort; measure performance on different floors / inpatient service. PPV at Sensitivity = 0.9
-  - Rationale: retrospective cohort study in patients before and after tool is implemented
+  - Intended Use: measure performance in external validation cohort;
+    measure performance on different floors / inpatient service. PPV at
+    Sensitivity = 0.9
+  - Rationale: retrospective cohort study in patients before and after
+    tool is implemented
   - Reference:
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
@@ -758,7 +806,8 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
 
 - **Pre-post implementation differences in usefulness metrics**
 
-  - Intended Use: calculate pre-post rate differences in before and after cohorts:
+  - Intended Use: calculate pre-post rate differences in before and
+    after cohorts:
     - Proportion of positives leading to treatment
     - % treaded for sepsis
     - Time to first IV antibiotic
@@ -774,8 +823,12 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     - Positive blood culture
     - Time from arrival to hypotension
   - Rationale:
-  - Reference: Eisenberg, M. A. et al. Outcomes of Patients with Sepsis in a Pediatric Emergency Department after Automated Sepsis Screening. The Journal of Pediatrics 235, 239-245.e4 (2021).
-  - Reference: Eisenberg, M. et al. Comparison of Manual and Automated Sepsis Screening Tools in a Pediatric Emergency Department. Pediatrics 147, e2020022590 (2021).
+  - Reference: Eisenberg, M. A. et al. Outcomes of Patients with Sepsis
+    in a Pediatric Emergency Department after Automated Sepsis
+    Screening. The Journal of Pediatrics 235, 239-245.e4 (2021).
+  - Reference: Eisenberg, M. et al. Comparison of Manual and Automated
+    Sepsis Screening Tools in a Pediatric Emergency Department.
+    Pediatrics 147, e2020022590 (2021).
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
@@ -786,7 +839,8 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
 Fairness and Bias Management
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*(additional detail for the Responsible AI Principle of Fairness and Bias Management can be found in the CHAI RAIG)*
+*(additional detail for the Responsible AI Principle of Fairness and
+Bias Management can be found in the CHAI RAIG)*
 
 **Method/Metric:**
 
@@ -896,9 +950,15 @@ Reliability can be found in the CHAI RAIG)*
 
 - **Proportion of patients who received IV antibiotics**
 
-  - Intended Use: Retrospective cohort study comparing patients of a predefined age presenting to an ED who triggered a false-positive sepsis alert during 2 different n-month time periods: a silent alert period when alerts were generated but not visible to clinicians and an active alert period when alerts were visible.
+  - Intended Use: Retrospective cohort study comparing patients of a
+    predefined age presenting to an ED who triggered a false-positive
+    sepsis alert during 2 different n-month time periods: a silent alert
+    period when alerts were generated but not visible to clinicians and
+    an active alert period when alerts were visible.
   - Rationale: we recommend including this method/metric.
-  - Reference: Baker, A. H. et al. Effect of a Sepsis Screening Algorithm on Care of Children with False-Positive Sepsis Alerts. The Journal of Pediatrics 231, 193-199.e1 (2021).
+  - Reference: Baker, A. H. et al. Effect of a Sepsis Screening
+    Algorithm on Care of Children with False-Positive Sepsis Alerts. The
+    Journal of Pediatrics 231, 193-199.e1 (2021).
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
@@ -909,7 +969,9 @@ Reliability can be found in the CHAI RAIG)*
 
   - Intended Use 
   - Rationale:
-  - Reference: Baker, A. H. et al. Effect of a Sepsis Screening Algorithm on Care of Children with False-Positive Sepsis Alerts. The Journal of Pediatrics 231, 193-199.e1 (2021).
+  - Reference: Baker, A. H. et al. Effect of a Sepsis Screening
+    Algorithm on Care of Children with False-Positive Sepsis Alerts. The
+    Journal of Pediatrics 231, 193--199.e1 (2021).
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):
@@ -918,8 +980,11 @@ Reliability can be found in the CHAI RAIG)*
 
   - **Model Interaction Data**
 
-  - Intended Use: Assess user engagement with the model recommendations. For example, the acknowledgement reasons on a Best Practice Advisory. 
-  - Rationale: Drifts in user response to model recommendations may signal performance deterioration.
+  - Intended Use: Assess user engagement with the model recommendations.
+    For example, the acknowledgement reasons on a Best Practice
+    Advisory.
+  - Rationale: Drifts in user response to model recommendations may
+    signal performance deterioration.
   - Reference: 
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
@@ -929,8 +994,11 @@ Reliability can be found in the CHAI RAIG)*
 
 - **Technical Support**
 
-  - Intended Use: Point(s) of contact for clinical end-users to escalate model issues.
-  - Rationale: Changes in the EHR may lead to critical failues in clinical decision support that are not identified via automated controls.
+  - Intended Use: Point(s) of contact for clinical end-users to escalate
+    model issues.
+  - Rationale: Changes in the EHR may lead to critical failues in
+    clinical decision support that are not identified via automated
+    controls.
   - Reference: 
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
@@ -966,7 +1034,9 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
 
 - **Determine who on the care team is receiving alerts (components of screening)**
 
-  - Intended Use: Automated alert followed by manual screening allows for additional transparency relative to completely automated solutions.
+  - Intended Use: Automated alert followed by manual screening allows
+    for additional transparency relative to completely automated
+    solutions.
   - Rationale: 
   - Reference: 
   - Monitoring Cadence (Time Interval, Frequency, etc.):
@@ -985,8 +1055,13 @@ Privacy can be found in the CHAI RAIG)*
 
 - **Locality of the assessment**
 
-  - Intended Use: observe and characterize the stakeholders receiving information on patient. 
-  - Rationale: human assessment of “minimum necessary” criteria. Only the care team of the patient review and receive information on sepsis alerts; the manual screen contains minimum necessary survey of patient data; and the action plan is a team huddle. All data stays in EHR system.
+  - Intended Use: observe and characterize the stakeholders receiving
+    information on patient. 
+  - Rationale: human assessment of "minimum necessary" criteria. Only
+    the care team of the patient review and receive information on
+    sepsis alerts; the manual screen contains minimum necessary survey
+    of patient data; and the action plan is a team huddle. All data
+    stays in EHR system.
   - Reference:
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring

@@ -45,8 +45,8 @@ For Future versions (post-v1.0)
 -	Minor revision: e.g., v1.1: minor new UI or format, few new features, collection of bug fixes
 
 ## Key Terms
--	**CHAI Majority Consensus**, from International Organization for Standards (ISO): “text is approved as an International Standard (IS)… if a two-thirds majority of the P-members (participating-members)… in favor and not more than one-quarter of the total number of votes cast are negative” [linked here](https://www.iso.org/sites/ConsumersStandards/voting_iso.html)
+-	**CHAI Majority Consensus**, from International Organization for Standards (ISO): "text is approved as an International Standard (IS)… if a two-thirds majority of the P-members (participating-members)… in favor and not more than one-quarter of the total number of votes cast are negative" [linked here](https://www.iso.org/sites/ConsumersStandards/voting_iso.html)
 -	**CHAI Work Group Quorum**, summarized from IEEE and HL7: in many work groups, sets quorum as 50% + 1 (simple majority); however, quorum is up to discretion of each work group. [linked here](https://confluence.hl7.org/spaces/TSC/pages/130483151/Generic+HL7+Work+Group+DMP)
-  -	Specifically, from HL7 Governance and Operations Manual: “Unless otherwise noted, motions shall be resolved by simple majority or quorum.” [linked here](https://www.hl7.org/documentcenter/public/membership/HL7_Governance_and_Operations_Manual.pdf)
-  -	Appendix: “CHAI Work Group Quorum applies to any decisions that are made live on calls. For asynchronous decisions, all 100% of Work Group members will be informed of the request. Lack of response indicates an Abstain vote.”
+  -	Specifically, from HL7 Governance and Operations Manual: "Unless otherwise noted, motions shall be resolved by simple majority or quorum." [linked here](https://www.hl7.org/documentcenter/public/membership/HL7_Governance_and_Operations_Manual.pdf)
+  -	Appendix: "CHAI Work Group Quorum applies to any decisions that are made live on calls. For asynchronous decisions, all 100% of Work Group members will be informed of the request. Lack of response indicates an Abstain vote."
 

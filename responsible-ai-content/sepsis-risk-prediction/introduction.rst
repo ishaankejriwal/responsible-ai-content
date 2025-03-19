@@ -38,9 +38,7 @@ risk prediction AI solutions used in healthcare organizations:
   including requirements gathering, design, coding, testing, and
   maintenance of software applications (derived from IEEE, 12207:2017)
 
-- Implementers: a person or organization that is responsible for the
-  realization of a system or component in accordance with a specified
-  design (derived from IEEE 829 and IEEE 730)
+- Implementers: individuals responsible for the procurement, deployment, and/or overall realization of a system or component in accordance with a specified design (derived from IEEE 829 and IEEE 730)
 
 - Healthcare organizations: "a health care organization is a
   purposefully designed, structured social system developed for the

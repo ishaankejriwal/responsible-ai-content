@@ -16,8 +16,8 @@ c.	Issues raised will be prioritized, changes determined, committed, and reflect
 3.	Want to prioritize getting information to our community rapidly and in a way that is useful. Waiting for documents to be “ideal” in a space where there are still uncertainties and unknowns, often delays dissemination. 
 4.	Want to support the development of an open-source community that includes CHAI members and other domain experts who can begin testing these methods and metrics, providing examples, and filling any gaps in information.
 5.	Important Notes:
-  a.	The content you see below will have blanks. This may be because it was outside of the scope of a specific workgroup focus, because the domain was added post content development, or because information still needs to be added. We welcome these additions from our community and other domain experts.
-  b. Content that is included was agreed upon by workgroup members and leads (See GitHub Standard Operating Procedures Section below). 
+  - The content you see below will have blanks. This may be because it was outside of the scope of a specific workgroup focus, because the domain was added post content development, or because information still needs to be added. We welcome these additions from our community and other domain experts.
+  - Content that is included was agreed upon by workgroup members and leads (See GitHub Standard Operating Procedures Section below). 
 
 
 **Disclaimer**

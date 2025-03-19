@@ -5,6 +5,7 @@ We want to start by thanking every single individual who showed interest, partic
 For those who want to be credited directly by name, please reach out to us at admin@chai.org to request contribution credit for the work group that you participated in. Below is a list of organizations who had at least one (many times more) individuals who showed interest and/or participated in our Predictive AI sepsis risk prediction work group. 
 
 **Predictive AI: Sepsis Risk Prediction - Contributors**
+
 •	NHC
 •	Advent Health
 •	American Heart Association

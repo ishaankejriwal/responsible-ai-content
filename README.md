@@ -16,7 +16,7 @@ Develop a set of standard operating procedures for CHAI Program Management and C
 
 ## Table of Contents
 - [Feedback Process](#feedback-process)
-- [Editing the GitHub Repository](#editing-the-github-repository)
+- [Editing the Repository](#editing-the-repository)
 - [Version Control](#version-control)
 - [Key Terms](#key-terms)
 
@@ -50,3 +50,8 @@ For Future versions (post-v1.0)
   -	Specifically, from HL7 Governance and Operations Manual: "Unless otherwise noted, motions shall be resolved by simple majority or quorum." [linked here](https://www.hl7.org/documentcenter/public/membership/HL7_Governance_and_Operations_Manual.pdf)
   -	Appendix: "CHAI Work Group Quorum applies to any decisions that are made live on calls. For asynchronous decisions, all 100% of Work Group members will be informed of the request. Lack of response indicates an Abstain vote."
 
+## Copyright
+Copyright (c) 2025 Coalition for Health AI, Inc.
+
+## License
+[The contents of this repository are licensed under](https://github.com/coalition-for-health-ai/responsible-ai-content/blob/main/LICENSE) [the CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).

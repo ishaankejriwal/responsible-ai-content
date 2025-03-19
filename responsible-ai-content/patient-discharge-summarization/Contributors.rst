@@ -2,9 +2,9 @@
 
 We want to start by thanking every single individual who showed interest, participated, listened, and came along with us in the early stages of our work. We recognize that the process and progress wasn’t perfect, but it 100% would not have been possible if it weren’t for you. CHAI is at its core, a convener, and a member driven non-profit. We are so grateful to be on this journey with you towards responsible AI in health for all. Your experiences, your feedback, your contributions, all make us who we are and help bring us to where we need to be.
 
-For those who want to be credited directly by name, please reach out to us at admin@chai.org to request contribution credit for the work group that you participated in. Below is a list of organizations who had at least one (many times more) individuals who showed interest and/or participated in our Predictive AI sepsis risk prediction work group. 
+For those who want to be credited directly by name, please reach out to us at admin@chai.org to request contribution credit for the work group that you participated in. Below is a list of organizations who had at least one (many times more) individuals who showed interest and/or participated in our Generative AI patient discharge summarization work group. 
 
-**Predictive AI: Sepsis Risk Prediction - Contributors**
+**Generative AI: Patient Discharge Summarization - Contributors**
 
 •	23 and me
 •	Abridge

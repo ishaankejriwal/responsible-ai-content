@@ -16,7 +16,7 @@ Usefulness, Usability, and Efficacy
 *(additional detail for the Responsible AI Principle of Usefulness,
 Usability, and Efficacy can be found in the CHAI RAIG)*
 
-**Method/Metric:**
+**Recommended Methods/Metrics:**
 
 - **Physician Documentation Quality Instrument, Nine-item tool
   (PDQI-9)**
@@ -60,11 +60,13 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
   - Recommended Notification of Significant Changes (Yes/No, Describe
     when notification of other party is recommended):
 
+**Acknowledged/Optional Methods/Metrics:**
+
 - **ROUGE (Recall-Oriented Understudy for Gisting Evaluation)**
 
   - Intended Use: N-gram or Longest Common Subsequence overlap can be
     measured when reference summary is available.
-  - Rationale: Acknowledge but do not use. Modern summarization systems
+  - Rationale: Acknowledge but do not recommend. Modern summarization systems
     use abstractive summarization (and not extractive summarization) so
     ROUGE is not helpful.
   - Reference: `ROUGE: A Package for Automatic Evaluation of
@@ -93,7 +95,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     distance between a summary and reference text by making use of the
     Word Mover's Distance (Kusner et al., 2015) operating over n-gram
     embeddings pooled from BERT representations.
-  - Rationale: Acknowledge but do not use. Modern summarization systems
+  - Rationale: Acknowledge but do not recommend. Modern summarization systems
     use abstractive summarization -- token-level comparisons, even
     relying on embeddings, is too coarse.
   - Reference: `MoverScore: Text Generation Evaluating with
@@ -107,7 +109,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     extends Word Mover's Distance to view documents as a bag of sentence
     embeddings as well as a variation which represents documents as both
     a bag of sentences and a bag of words.
-  - Rationale: Acknowledge but do not use. Modern summarization systems
+  - Rationale: Acknowledge but do not recommend. Modern summarization systems
     use abstractive summarization -- token-level comparisons, even
     relying on embeddings, is too coarse.
   - Reference: `Sentence Mover's Similarity: Automatic Evaluation for
@@ -122,7 +124,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     entities in source documents associated with evaluated summaries.
     The metric reports both the F1 overlap score and QA-model
     confidence.
-  - Rationale: Use DocLens instead
+  - Rationale: Recommend DocLens instead.
   - Reference: `Answers Unite! Unsupervised Metrics for Reinforced
     Summarization Models <https://aclanthology.org/D19-1320/>`__
   - Open-source tooling:
@@ -133,7 +135,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     metric that measures the performance gains of a pre-trained language
     model given access to a document summary while carrying out language
     understanding tasks on the source document's text.
-  - Rationale: Use DocLens instead
+  - Rationale: Recommend DocLens instead.
   - Reference: `Fill in the BLANC: Human-free quality estimation of
     document summaries <https://aclanthology.org/2020.eval4nlp-1.2/>`__
   - Open-source tooling:
@@ -145,7 +147,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     the semantic similarity of model outputs with pseudo-reference
     summaries created by extracting salient sentences from the source
     documents, using soft token alignment techniques.
-  - Rationale: Acknowledge but do not use. Modern summarization systems
+  - Rationale: Acknowledge but do not recommend. Modern summarization systems
     use abstractive summarization -- token-level comparisons, even
     relying on embeddings, is too coarse.
   - Reference: `SUPERT: Towards New Frontiers in Unsupervised Evaluation
@@ -176,7 +178,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     cannot be broken down further. ACUEVAL first generates these atomic
     facts from the system summary, and then validates each extracted
     fact against the source document.
-  - Rationale: Use DocLens instead.
+  - Rationale: Recommend DocLens instead.
   - Reference: `ACUEVAL: Fine-grained Hallucination Evaluation and
     Correction for Abstractive
     Summarization <https://openreview.net/pdf/9e1df04bb2315384aa8dbaf47373b833670ae7ff.pdf>`__
@@ -185,7 +187,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
 - **Bilingual Evaluation Understudy (BLEU)**
 
   - Intended Use:
-  - Rationale: Acknowledge but do not use. Modern summarization systems
+  - Rationale: Acknowledge but do not recommend. Modern summarization systems
     use abstractive summarization (and not extractive summarization) so
     BLEU is not helpful.
   - Reference: `BLEU: a Method for Automatic Evaluation of Machine
@@ -198,7 +200,7 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
     but relevant for summarization, improves over BLEU to account for
     matching synonyms/stemming. Accuracy score similar to but improving
     on BLEU.
-  - Rationale: Acknowledge but do not use. Modern summarization systems
+  - Rationale: Acknowledge but do not recommend. Modern summarization systems
     use abstractive summarization (and not extractive summarization) so
     METEOR is not helpful.
   - Reference: `METEOR: An Automatic Metric for MT Evaluation with
@@ -212,7 +214,7 @@ Fairness and Bias Management
 *(additional detail for the Responsible AI Principle of Fairness and
 Bias Management can be found in the CHAI RAIG)*
 
-**Method/Metric:**
+**Recommended Methods/Metrics:**
 
 - **Counterfactual Physician Documentation Quality Instrument, Nine-item
   tool (PDQI-9)**
@@ -278,7 +280,7 @@ Safety and Reliability
 *(additional detail for the Responsible AI Principle of Safety and
 Reliability can be found in the CHAI RAIG)*
 
-**Method/Metric:**
+**Recommended Methods/Metrics:**
 
 - **Expected Maximum Toxicity**
 
@@ -306,7 +308,7 @@ Reliability can be found in the CHAI RAIG)*
     measures (from the T&A accuracy section) over multiple evaluations
     for the same prompt contemporaneously. Regardless, assess accuracy
     over time on same metrics.
-  - Rationale: For developer only. Use DocLens with multiple generations
+  - Rationale: For developer only. Recommend DocLens with multiple generations
     to assess the 3 metrics of (1) completeness (2) conciseness and (3)
     attribution. Recommend m = 25.
   - Reference:
@@ -332,6 +334,8 @@ Reliability can be found in the CHAI RAIG)*
     Models <https://arxiv.org/pdf/2211.09110>`__
   - Open-source tooling:
     `here <https://github.com/cvs-health/langfair/tree/main/examples/evaluations/text_generation>`__
+
+**Acknowledged/Optional Methods/Metrics:**
 
 - **Toxicity Probability**
 
@@ -396,7 +400,7 @@ Transparency, Intelligibility, and Accountability
 *(additional detail for the Responsible AI Principle of Transparency,
 Intelligibility, and Accountability can be found in the CHAI RAIG)*
 
-**Method/Metric:**
+**Recommended Methods/Metrics:**
 
 - **Proportion of Uses Disclosed to Patients**
 
@@ -428,6 +432,8 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
   - Recommended Notification of Significant Changes (Yes/No, Describe
     when notification of other party is recommended):
 
+**Acknowledged/Optional Methods/Metrics**
+
 - **Transparent Reporting of a Multivariable Model for Individual
   Prognosis or Diagnosis-Large Language Model (TRIPOD-LLM)**
 
@@ -436,7 +442,7 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
     guideline may serve as a way to transparently communicate GenAI
     evaluation methods and results. Multistep checklist asessesing
     underlying data, training process, evaluation
-  - Rationale: Acknowledge but do not use.
+  - Rationale: Acknowledge.
   - Reference: `The TRIPOD-LLM Statement: A Targeted Guideline For
     Reporting Large Language Models
     Use <https://pmc.ncbi.nlm.nih.gov/articles/PMC11361247/>`__
@@ -448,7 +454,7 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
     evaluation. Checklist primarily intended for reproducibility, but
     has elements that can be surfaced for transparency, e.g., Model
     versionin
-  - Rationale: Acknowledge but do not use.
+  - Rationale: Acknowledge.
   - Reference: `Toward Clinical-Grade Evaluation of Large Language
     Models <https://pmc.ncbi.nlm.nih.gov/articles/PMC11221761/>`__
   - Open-source tooling:
@@ -459,7 +465,7 @@ Security and Privacy
 *(additional detail for the Responsible AI Principle of Security and
 Privacy can be found in the CHAI RAIG)*
 
-**Method/Metric:**
+**Recommended Methods/Metrics:**
 
 - **Model Uptime/Failed Generations when Deployed**
 

@@ -100,7 +100,6 @@ Organizations
 * NYU Langone
 * OCHIN
 * OnPoint Healthcare Partners 
-* OpenAI
 * Optum
 * Oracle
 * Pair Team

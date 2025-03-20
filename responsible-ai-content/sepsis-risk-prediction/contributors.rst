@@ -28,6 +28,7 @@ Individuals
 * Raj Ratwani, Medstar
 * Sonya Makhni, Mayo Clinic platform
 * Geralyn Miller, Microsoft
+* Han-Chen Shing, Amazon
 * Nasibeh Zanjirani Farahani, Mayo Clinic
 * Jessica Handley, Medstar
 * Kerry Bommarito, Mercy

@@ -37,9 +37,7 @@ Develop a set of standard operating procedures for CHAI Program Management and C
 
 ## Feedback Process
 
-Feedback Forms (GitHub Issue and Microsoft Form will be available and linked here).
-
-1.	Reviewer submits an Issue via the Feedback Form.
+1.	Reviewer submits a ticket via the [Feedback Form](https://forms.office.com/r/6LDSZcv9cu) or [GitHub Issues](https://github.com/coalition-for-health-ai/responsible-ai-content/issues/new?template=FeedbackForm.yml).
 2.	CHAI Program Management team and workgroup leads review, determine if a change needs to be made to the repository, and defines what the scope of that change will be.
 3.	Any issue that will result in a change will result in a Pull Request (PR). 
 4.	CHAI Program Management + non-CHAI Work Group Committer(s) will approve the PR and changes will automatically be reflected in the latest version of the repository.

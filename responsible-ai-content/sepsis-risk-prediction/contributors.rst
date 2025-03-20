@@ -23,11 +23,12 @@ sepsis risk prediction work group.
 
 Individuals
 -----------
-* Han-Chin Shing, Amazon
-* Geralyn Miller, Microsoft
+
 * Maryzeh Ghassemi, MIT
 * Raj Ratwani, Medstar
 * Sonya Makhni, Mayo Clinic platform
+* Han-Chin Shing, Amazon
+* Geralyn Miller, Microsoft
 * Nasibeh Zanjirani Farahani, Mayo Clinic
 * Jessica Handley, Medstar
 * Kerry Bommarito, Mercy

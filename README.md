@@ -1,11 +1,12 @@
 # Responsible AI Content
-**Overview**
+
+## Overview
 
 This repository includes use case folders with consensus-defined Testing and Evaluation Frameworks. When completing the CHAI Applied Model Card, review use case specific Testing and Evaluation Frameworks for additional CHAI consensus-defined guidance.
 
 A Testing and Evaluation (T&E) Framework includes a consensus-defined set of methods, metrics, measures, and/or benchmarks for developers and implementers to more concretely evaluate the responsible use of health AI solutions for a given use case. Content within a T&E Framework varies based on use case and type.
 
-**CHAI Vision**
+## CHAI Vision
 
 By displaying this content on GitHub we: 
 1.	Welcome feedback and new evidence/examples for or against the use of a particular method or metric for a given use case. We have two methods for individuals to provide feedback once information is posted to the public repository. 
@@ -19,6 +20,9 @@ By displaying this content on GitHub we:
     - The content you see below will have blanks. This may be because it was outside of the scope of a specific workgroup focus, because the domain was added after content development, or because information still needs to be added. We welcome these additions from our community and other domain experts.
     - Content that is included was agreed upon by workgroup members and leads (see [GOVERNANCE.md](./GOVERNANCE.md) and [CONTRIBUTING.md](./CONTRIBUTING.md)).
 
+## CHAI GitHub Standard Operating Procedures
+
+Please read [GOVERNANCE.md](./GOVERNANCE.md) and [CONTRIBUTING.md](./CONTRIBUTING.md) to learn more about our contributing guidelines and standard operating procedures for open-source projects. 
 
 ## Disclaimer
 

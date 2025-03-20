@@ -5,6 +5,7 @@ We want to start by thanking every single individual who showed interest, partic
 For those who want to be credited directly by name please reach out to us at admin@chai.org to request contribution credit for the workgroup that you participated in. You can also email to request changes to the list. Below is a list of individuals who consented to be named for their contributions, and organizations who had at least one (many times more) individuals who showed interest and/or participated in our Predictive AI sepsis risk prediction work group. 
 
 **Predictive AL: Individually Named Contributors**
+
 • Nasibeh Zanjirani Farahani, Mayo Clinic
 • Kerry Bommarito, Mercy
 • Sara Gebauer, RAND  

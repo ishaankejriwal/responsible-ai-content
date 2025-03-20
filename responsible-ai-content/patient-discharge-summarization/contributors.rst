@@ -28,7 +28,17 @@ Individuals
 * Zack Lipton, Abridge
 * Tim Hwang, Abridge
 * Shalmali Joshi, Columbia
+* Yindalon Aphinyanaphongs, NYU Langone
+* Alyssa Pradhan, NYU Langone
+* Sara Murray, UC San Francisco
 * Rebecca Mishuris, Mass General Brigham
+* Kate Eisenberg, EBSCO/DynAI
+* Erin Palm, Suki
+* Ben Hollis, EBSCO/DynAI
+* Dennis Shung, Yale
+* Micah Sheller, Intel
+* Yuri Rodrigues, Complear
+* Jim St. Clair, Mississippi AI Collaborative
 * Nasibeh Zanjirani Farahani, Mayo Clinic
 * Leah Livingston, Elsevier
 * Kerry Bommarito, Mercy

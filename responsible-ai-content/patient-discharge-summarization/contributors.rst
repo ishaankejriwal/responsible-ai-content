@@ -24,6 +24,11 @@ patient discharge note summarization work group.
 Individuals
 -----------
 
+* Karandeep Singh, UC San Diego
+* Zack Lipton, Abridge
+* Tim Hwang, Abridge
+* Shalmali Joshi, Columbia
+* Rebecca Mishuris, Mass General Brigham
 * Nasibeh Zanjirani Farahani, Mayo Clinic
 * Leah Livingston, Elsevier
 * Kerry Bommarito, Mercy

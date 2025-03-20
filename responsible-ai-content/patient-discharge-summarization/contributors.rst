@@ -38,7 +38,7 @@ Individuals
 * Dennis Shung, Yale
 * Micah Sheller, Intel
 * Yuri Rodrigues, Complear
-* Jim St. Clair, Mississippi AI Collaborative
+* Jim St. Clair, Independent Contributor
 * Nasibeh Zanjirani Farahani, Mayo Clinic
 * Leah Livingston, Elsevier
 * Kerry Bommarito, Mercy

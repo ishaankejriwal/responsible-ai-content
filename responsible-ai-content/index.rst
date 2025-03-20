@@ -12,6 +12,7 @@ CHAI Responsible AI Content documentation
    :titlesonly:
    :caption: Contents:
 
+   community/index
    patient-discharge-summarization/index
    sepsis-risk-prediction/index
 

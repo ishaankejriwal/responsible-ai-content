@@ -250,12 +250,12 @@ Usability, and Efficacy can be found in the CHAI RAIG)*
 
 - **Ground Theory Analysis**
 
-  - Intended Use:
-  - Rationale:
+  - Intended Use: Use this qualitative research method to develop theories based on systematically gathered and analyzed        data. Conduct semi-structured interviews with clinicians or relevant end-users to gather insights. Focus on themes such     as how clinicians perceive the AI system’s accuracy and trustworthiness and how well the AI system fits into existing       clinical workflows. Use iterative coding and constant comparison to analyze interview data. Generate theories that are      grounded in the actual experiences and needs of end-users.
+  - Rationale: Focus on real-world evidence rather than forcing data to fit existing models.
   - Reference:
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
-    (Developer/Implementer):
+    (Developer/Implementer): 
   - Recommended Notification of Significant Changes (Yes/No, Describe
     when notification of other party is recommended):
 

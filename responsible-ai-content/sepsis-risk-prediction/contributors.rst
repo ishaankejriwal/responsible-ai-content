@@ -31,6 +31,12 @@ Individuals
 * Han-Chen Shing, Amazon
 * Nasibeh Zanjirani Farahani, Mayo Clinic
 * Jessica Handley, Medstar
+* Paul Gerrard, Path AI
+* Andrei Petrus, Lucern Health
+* Hojjat Salmasian, Children's Hospital of Philadephia (CHOP)
+* Micah Sheller, Intel
+* Yuri Rodrigues, Complear
+* Jim St. Clair, Independent Contributor
 * Kerry Bommarito, Mercy
 * Sara Gebauer, RAND
 * Aaron Boussina, UCSD & Clairyon

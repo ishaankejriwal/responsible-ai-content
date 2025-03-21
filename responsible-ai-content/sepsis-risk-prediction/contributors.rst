@@ -40,6 +40,7 @@ Individuals
 * Kerry Bommarito, Mercy
 * Sara Gebauer, RAND
 * Aaron Boussina, UCSD & Clairyon
+* William La Cava, Boston Children's Hospital
 
 Organizations
 -------------

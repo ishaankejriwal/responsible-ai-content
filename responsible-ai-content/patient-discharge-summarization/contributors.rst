@@ -42,6 +42,7 @@ Individuals
 * Nasibeh Zanjirani Farahani, Mayo Clinic
 * Leah Livingston, Elsevier
 * Kerry Bommarito, Mercy
+* Samta Shukla, Blue Cross and Blue Shield of Minnesota
 
 Organizations
 -------------------------

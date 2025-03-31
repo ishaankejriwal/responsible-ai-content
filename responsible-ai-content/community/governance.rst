@@ -36,9 +36,12 @@ Version Control
   contributions.
 - **v1.0**: Priority feedback incorporated before finalizing.
 
-For future versions: - **Major revisions (e.g., v2.0)**: Significant
-changes like new UI, features, or conceptual updates. - **Minor
-revisions (e.g., v1.1)**: Small updates, bug fixes, or minor features.
+For future versions:
+
+- **Major revisions (e.g., v2.0)**: Significant changes like new UI,
+  features, or conceptual updates.
+- **Minor revisions (e.g., v1.1)**: Small updates, bug fixes, or minor
+  features.
 
 Key Terms
 ---------

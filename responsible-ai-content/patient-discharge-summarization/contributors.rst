@@ -43,11 +43,12 @@ Individuals
 * Leah Livingston, Elsevier
 * Kerry Bommarito, Mercy
 * Samta Shukla, Blue Cross and Blue Shield of Minnesota
+* Yashashree Kokje, 23andMe
 
 Organizations
 -------------------------
 
-* 23 and me
+* 23andMe
 * Abridge
 * AdventHealth
 * American Heart Association

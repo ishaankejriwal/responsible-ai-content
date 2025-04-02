@@ -33,7 +33,7 @@ Individuals
 * Jessica Handley, Medstar
 * Paul Gerrard, Path AI
 * Andrei Petrus, Lucern Health
-* Hojjat Salmasian, Children's Hospital of Philadephia (CHOP)
+* Hojjat Salmasian, Children's Hospital of Philadelphia (CHOP)
 * Micah Sheller, Intel
 * Yuri Rodrigues, Complear
 * Jim St. Clair, Independent Contributor

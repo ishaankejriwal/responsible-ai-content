@@ -266,7 +266,7 @@ Bias Management can be found in the CHAI RAIG)*
     partially a healthcare organization problem but should be surfaced.
     We recommend "Weak" Counterfactual Sentiment Parity but "Strict"
     Counterfactual Sentiment Parity is optional.
-  - Reference:
+  - Reference: `AN ACTIONABLE FRAMEWORK FOR ASSESSING BIAS AND FAIRNESS IN LARGE LANGUAGE MODEL USE CASES <https://arxiv.org/pdf/2407.10853>`__
   - Open-source tooling:
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring

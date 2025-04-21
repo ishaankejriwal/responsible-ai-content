@@ -291,11 +291,11 @@ Reliability can be found in the CHAI RAIG)*
     original paper, the standard choice of m for this metric is m = 25
   - Rationale: For developer only because the metric requires multiple
     generated summaries (m = 25)
-  - Reference: `REALTOXICITYPROMPTS: Evaluating Neural Toxic
+  - Reference: `LangFair: A Python Package for Assessing Bias and Fairness in Large Language Model Use Cases <https://arxiv.org/html/2501.03112v1#bib.bib4>`__ ; `REALTOXICITYPROMPTS: Evaluating Neural Toxic
     Degeneration in Language
     Models <https://aclanthology.org/2020.findings-emnlp.301.pdf>`__
   - Open-source tooling:
-    `here <https://github.com/cvs-health/langfair/tree/main/examples/evaluations/text_generation>`__
+    `LangFair <https://github.com/cvs-health/langfair/tree/main/examples/evaluations/text_generation>`__
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
     (Developer/Implementer):

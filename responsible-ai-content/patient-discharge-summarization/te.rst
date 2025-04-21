@@ -266,7 +266,7 @@ Bias Management can be found in the CHAI RAIG)*
     partially a healthcare organization problem but should be surfaced.
     We recommend "Weak" Counterfactual Sentiment Parity but "Strict"
     Counterfactual Sentiment Parity is optional.
-  - Reference: `AN ACTIONABLE FRAMEWORK FOR ASSESSING BIAS AND FAIRNESS IN LARGE LANGUAGE MODEL USE CASES <https://arxiv.org/pdf/2407.10853>`__
+  - Reference: `An Actionable Framework for Assessing Bias and Fairness in Large Language Model Use Cases <https://arxiv.org/pdf/2407.10853>`__
   - Open-source tooling:
   - Monitoring Cadence (Time Interval, Frequency, etc.):
   - Recommended Responsible Party for Monitoring
@@ -330,10 +330,10 @@ Reliability can be found in the CHAI RAIG)*
     m for this metric is m = 1, a larger value of m may be preferred in
     practice if sampling a large N is infeasible.
   - Rationale: optional for developer and implementer.
-  - Reference: `Holistic Evaluation of Language
+  - Reference: `An Actionable Framework for Assessing Bias and Fairness in Large Language Model Use Cases <https://arxiv.org/pdf/2407.10853>`__ ; `Holistic Evaluation of Language
     Models <https://arxiv.org/pdf/2211.09110>`__
   - Open-source tooling:
-    `here <https://github.com/cvs-health/langfair/tree/main/examples/evaluations/text_generation>`__
+    `LangFair <https://github.com/cvs-health/langfair/tree/main/examples/evaluations/text_generation>`__
 
 **Acknowledged/Optional Methods/Metrics:**
 
@@ -347,21 +347,18 @@ Reliability can be found in the CHAI RAIG)*
     Per original paper, the standard choice of m for this metric is m =
     25.
   - Rationale: optional for developer and implementer.
-  - Reference: `REALTOXICITYPROMPTS: Evaluating Neural Toxic
-    Degeneration in Language
-    Models <https://arxiv.org/pdf/2009.11462>`__
+  - Reference: `An Actionable Framework for Assessing Bias and Fairness in Large Language Model Use Cases <https://arxiv.org/pdf/2407.10853>`__ ; `REALTOXICITYPROMPTS: Evaluating Neural Toxic
+    Degeneration in Language Models <https://arxiv.org/pdf/2009.11462>`__
   - Open-source tooling:
-    `here <https://github.com/cvs-health/langfair/tree/main/examples/evaluations/text_generation>`__
+    `LangFair <https://github.com/cvs-health/langfair/tree/main/examples/evaluations/text_generation>`__
 
 - **Holistic Evaluation of Language Models (HELM)**
 
   - Intended Use: Applies to underlying language model but does not
     assess the output of the model in DC summary generation. Should
     request vendor provide data on safety prior to use of model.
-  - Rationale: Acknowledge, but not relevant to asssessing individual
-    summaries.
-  - Reference: `Holistic Evaluation of Language
-    Models <https://arxiv.org/abs/2211.09110>`__
+  - Rationale: Acknowledge, but not relevant to asssessing individual summaries.
+  - Reference: `Holistic Evaluation of Language Models <https://arxiv.org/abs/2211.09110>`__
   - Open-source tooling:
 
 - **Medsafetybench**
@@ -378,7 +375,7 @@ Reliability can be found in the CHAI RAIG)*
 
 - **Calibration**
 
-  - Intended Use: Adequent sequential order of events is captured: "The
+  - Intended Use: Adequate sequential order of events is captured: "The
     text coherently documents the key findings from the conversation in
     a sequential matter from the patient's symptoms to their allergies
     and family history and then to the examination and plan". Overall

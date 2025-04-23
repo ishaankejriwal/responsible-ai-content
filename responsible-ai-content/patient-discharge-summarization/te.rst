@@ -219,8 +219,7 @@ Bias Management can be found in the CHAI RAIG)*
 - **Counterfactual Physician Documentation Quality Instrument, Nine-item
   tool (PDQI-9)**
 
-  - Intended Use: recommend implementer stratify by actual categories
-    and evlaute PDQI-9.
+  - Intended Use: recommend implementer stratify by actual categories and evaluate PDQI-9.
   - Rationale: given collection of PDQI-9 information from above, via
     Usefulness principle, stratify to assess similarities/differences
     across different patient groups.

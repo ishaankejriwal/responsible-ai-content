@@ -303,13 +303,13 @@ Reliability can be found in the CHAI RAIG)*
 
 - **Reliability of DocLens**
 
-  - Intended Use: If nondeterministic algorithm, assess accuracy
+  - Intended Use: For nondeterministic algorithm, assess accuracy
     measures (from the T&A accuracy section) over multiple evaluations
     for the same prompt contemporaneously. Regardless, assess accuracy
     over time on same metrics.
   - Rationale: For developer only. Recommend DocLens with multiple generations
     to assess the 3 metrics of (1) completeness (2) conciseness and (3)
-    attribution. Recommend m = 25.
+    attribution. Recommend m = 25, run the DocLens metric 25 times on the same generated summary.
   - Reference:
   - Open-source tooling:
   - Monitoring Cadence (Time Interval, Frequency, etc.):

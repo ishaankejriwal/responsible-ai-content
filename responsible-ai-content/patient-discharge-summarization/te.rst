@@ -436,7 +436,7 @@ Intelligibility, and Accountability can be found in the CHAI RAIG)*
   - Intended Use: The Transparent Reporting of a Multivariable Model for
     Individual Prognosis or Diagnosis-Large Language Model (TRIPOD-LLM)
     guideline may serve as a way to transparently communicate GenAI
-    evaluation methods and results. Multistep checklist asessesing
+    evaluation methods and results. Multistep checklist assessing
     underlying data, training process, evaluation
   - Rationale: Acknowledge.
   - Reference: `The TRIPOD-LLM Statement: A Targeted Guideline For

@@ -24,7 +24,7 @@ sepsis risk prediction work group.
 Individuals
 -----------
 
-* Maryzeh Ghassemi, MIT
+* Marzyeh Ghassemi, MIT
 * Raj Ratwani, Medstar
 * Sonya Makhni, Mayo Clinic platform
 * Geralyn Miller, Microsoft
@@ -82,7 +82,7 @@ Organizations
 * Kaiser Permanente
 * King and Spalding
 * Komodo Health
-* Lucern Health 
+* Lucem Health 
 * Massachusetts General
 * Mayo
 * Mayo Clinic Platform

@@ -25,14 +25,14 @@ Individuals
 -----------
 
 * Marzyeh Ghassemi, MIT
-* Raj Ratwani, Medstar
-* Sonya Makhni, Mayo Clinic platform
+* Raj Ratwani, MedStar
+* Sonya Makhni, Mayo Clinic Platform
 * Geralyn Miller, Microsoft
-* Han-Chen Shing, Amazon
+* Han-Chin Shing, Amazon
 * Nasibeh Zanjirani Farahani, Mayo Clinic
-* Jessica Handley, Medstar
-* Paul Gerrard, Path AI
-* Andrei Petrus, Lucern Health
+* Jessica Handley, MedStar
+* Paul Gerrard, PathAI
+* Andrei Petrus, Lucem Health
 * Hojjat Salmasian, Children's Hospital of Philadelphia (CHOP)
 * Micah Sheller, Intel
 * Yuri Rodrigues, Complear
@@ -46,7 +46,7 @@ Organizations
 -------------
 
 * National Health Council
-* Advent Health
+* AdventHealth
 * American Heart Association
 * Aidoc
 * Amazon
@@ -82,11 +82,11 @@ Organizations
 * Kaiser Permanente
 * King and Spalding
 * Komodo Health
-* Lucem Health 
+* Lucem Health
 * Massachusetts General
 * Mayo
 * Mayo Clinic Platform
-* Medstar
+* MedStar
 * Memora Health
 * Memorial Sloan Kettering
 * Mercy
@@ -100,12 +100,12 @@ Organizations
 * Optum/UHG
 * Oracle
 * Parkland
-* Path AI
+* PathAI
 * Penn Medicine
 * Providence
-* Rand Corporation
+* RAND Corporation
 * Sharp Healthcare
-* Shepard Center
+* Shepherd Center
 * Solventum
 * Stanford
 * Tortus
@@ -114,8 +114,8 @@ Organizations
 * UC Riverside
 * UNC Health
 * Unifi AI
-* United Health Group
-* UW Health- Pharmacy Services
+* UnitedHealth Group
+* UW Health Pharmacy Services
 * VA
 * Viz AI 
 * Wolters Kluwer
